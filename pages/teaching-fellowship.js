@@ -410,7 +410,7 @@ export default function () {
             <h3 className="text-primary-500">Questions</h3>
             <p>
               If you have any questions, please feel free to contact LITE
-              teachin/authoring fellowship support at{" "}
+              teaching/authoring fellowship support at{" "}
               <a
                 href="mailto:teaching@pupilfirst.org"
                 className="text-secondary-500 underline hover:text-secondary-300"
