@@ -138,7 +138,7 @@ export default function () {
               />
               <DescriptionListItem
                 title="When?"
-                content="October 3, 2022 to October 26, 2022"
+                content="October 11, 2022 to October 31, 2022"
               />
               <DescriptionListItem
                 title="Effort?"
@@ -208,19 +208,19 @@ export default function () {
                     </p>
                     <div className="text-xs md:text-sm mt-2 divide-y divide-gray-700">
                       <DateAndContent
-                        date="October 03, 2022"
+                        date="October 11, 2022"
                         content="LITE EV Teaching Fellowship Call"
                       />
                       <DateAndContent
-                        date="October 26, 2022"
+                        date="October 31, 2022"
                         content="Last Date to Apply for EV Teaching Fellowships"
                       />
                       <DateAndContent
-                        date="October 28, 2022"
+                        date="November 03, 2022"
                         content="Shortlisted Fellowship Candidates Announced"
                       />
                       <DateAndContent
-                        date="November 07, 2022"
+                        date="November 11, 2022"
                         content="LITE EV Teaching Fellows Announced"
                       />
                     </div>
@@ -345,19 +345,19 @@ export default function () {
         <SectionWithHeading heading="Schedule">
           <div className="bg-gray-800 border border-gray-700 rounded-lg divide-y divide-gray-700">
             <DateAndContent
-              date="October 03, 2022"
+              date="October 11, 2022"
               content="LITE EV Teaching Fellowship Call"
             />
             <DateAndContent
-              date="October 26, 2022"
+              date="October 31, 2022"
               content="Last Date to Apply for EV Teaching Fellowships"
             />
             <DateAndContent
-              date="October 28, 2022"
+              date="November 03, 2022"
               content="Shortlisted Fellowship Candidates Announced"
             />
             <DateAndContent
-              date="November 07, 2022"
+              date="November 11, 2022"
               content="LITE EV Teaching Fellows Announced"
             />
           </div>
@@ -391,7 +391,7 @@ export default function () {
               </svg>
             </div>
             <p className="text-lg">
-              <span className="font-semibold">26 October 2022:</span> The last
+              <span className="font-semibold">31 October 2022:</span> The last
               date to apply for LITE Industry Fellowships.
             </p>
           </div>
