@@ -12,7 +12,7 @@ export default function () {
         <title>LITE EV Teaching Fellowships</title>
         <meta
           name="description"
-          content="AICTE LITE EV Teaching Fellowship is a national fellowship for
+          content="AICTE LITE EV Fellowship (Teaching/Authoring) is a national fellowship for
 					experienced electric vehicle engineers who are interested in
 					contributing time for keeping the National EV Model Curriculum up-to-date with the latest in industry."
         ></meta>
@@ -65,10 +65,10 @@ export default function () {
               Leadership in Teaching Excellence (LITE)
             </p>
             <h1 className="hero__title-gradient text-3xl lg:text-7xl 2xl:text-8xl leading-snug lg:leading-tight 2xl:leading-tight mt-3 bg-clip-text text-transparent bg-gradient-to-r from-secondary-500 to-primary-500">
-              EV Teaching Fellowships
+              EV Fellowships (Teaching/Authoring)
             </h1>
             <p className="text-lg lg:text-xl 2xl:text-2xl max-w-3xl 2xl:max-w-5xl sm:text-center mt-6 px-4">
-              AICTE LITE EV Teaching Fellowship is a national fellowship for
+              AICTE LITE EV Fellowship (Teaching/Authoring) is a national fellowship for
               experienced electric vehicle engineers who are interested in
               contributing time for keeping the{" "}
               <a
@@ -126,7 +126,7 @@ export default function () {
             <div className="flex flex-col gap-8 col-span-7">
               <DescriptionListItem
                 title="What is this?"
-                content="It's a national teaching fellowship for experienced professionals in the field of Electric Vehicles who are interested in being both a course author and coach for EV courses that shall be taught in Universities across India."
+                content="It's a national teaching/authoring fellowship for experienced professionals in the field of Electric Vehicles who are interested in being both a course author and coach for EV courses that shall be taught in Universities across India."
               />
               <DescriptionListItem
                 title="What is its purpose?"
@@ -188,7 +188,7 @@ export default function () {
               />
               <DescriptionListItem
                 title="Certificate?	"
-                content="Yes. You would be awarded a National Teaching Fellowship Certificate jointly by the All India Council for Technical Education and Pupilfirst.org"
+                content="Yes. You would be awarded a National Teaching/Authoring Fellowship Certificate jointly by the All India Council for Technical Education and Pupilfirst.org"
               />
             </div>
             <div className="hidden md:block md:col-span-5">
@@ -201,7 +201,7 @@ export default function () {
                   </div>
                   <div className="">
                     <p className="text-secondary-400 text-lg lg:text-xl font-semibold leading-tight px-4 mt-4">
-                      Join as teaching fellowship
+                      Join as teaching/authoring fellow
                     </p>
                     <p className="text-xs text-gray-400 px-4">
                       Important Dates
@@ -209,11 +209,11 @@ export default function () {
                     <div className="text-xs md:text-sm mt-2 divide-y divide-gray-700">
                       <DateAndContent
                         date="October 11, 2022"
-                        content="LITE EV Teaching Fellowship Call"
+                        content="LITE EV Fellowship Call"
                       />
                       <DateAndContent
                         date="October 31, 2022"
-                        content="Last Date to Apply for EV Teaching Fellowships"
+                        content="Last Date to Apply for EV Fellowships"
                       />
                       <DateAndContent
                         date="November 03, 2022"
@@ -221,7 +221,7 @@ export default function () {
                       />
                       <DateAndContent
                         date="November 11, 2022"
-                        content="LITE EV Teaching Fellows Announced"
+                        content="LITE EV Fellows Announced"
                       />
                     </div>
                     <p className="p-4">
@@ -295,7 +295,7 @@ export default function () {
         </SectionWithHeading>
         <SectionWithHeading heading="Key Responsibilities">
           <p>
-            As a Teaching Fellow for a nationally approved engineering
+            As a Teaching/Authoring Fellow for a nationally approved engineering
             curriculum, you play an instrumental role in course implementation,
             evaluation and providing feedback for iterative course development
             processes.
@@ -346,11 +346,11 @@ export default function () {
           <div className="bg-gray-800 border border-gray-700 rounded-lg divide-y divide-gray-700">
             <DateAndContent
               date="October 11, 2022"
-              content="LITE EV Teaching Fellowship Call"
+              content="LITE EV Fellowship Call"
             />
             <DateAndContent
               date="October 31, 2022"
-              content="Last Date to Apply for EV Teaching Fellowships"
+              content="Last Date to Apply for EV Fellowships"
             />
             <DateAndContent
               date="November 03, 2022"
@@ -358,13 +358,13 @@ export default function () {
             />
             <DateAndContent
               date="November 11, 2022"
-              content="LITE EV Teaching Fellows Announced"
+              content="LITE EV Fellows Announced"
             />
           </div>
         </SectionWithHeading>
         <SectionWithHeading heading="Rolling Evaluations">
           <p>
-            All incoming applications are evaluated on a first-come, first-serve
+            All incoming applications are evaluated on a first-come, first-served
             basis, and if there are enough qualified applicants, the application
             process will close earlier. Therefore, we encourage you to apply
             early if you are interested in being a part of this fellowship
@@ -396,13 +396,13 @@ export default function () {
             </p>
           </div>
           <div className="mt-10 bg-gradient-to-r from-secondary-500 to-primary-500 px-6 py-6 flex items-center justify-between rounded-lg text-black">
-            <h3>Become a teaching fellow</h3>
+            <h3>Become a teaching/authoring fellow</h3>
             <p>
               <a
                 href="https://pupilfirst.typeform.com/to/Y6q6LScN"
                 className="block bg-black py-3 px-8 rounded-lg font-semibold text-primary-500 hover:brightness-110"
               >
-                Apply Now for LITE EV Teaching Fellowship
+                Apply Now for LITE EV Fellowship (Teaching/Authoring)
               </a>
             </p>
           </div>
@@ -410,7 +410,7 @@ export default function () {
             <h3 className="text-primary-500">Questions</h3>
             <p>
               If you have any questions, please feel free to contact LITE
-              teaching fellowship support at{" "}
+              teachin/authoring fellowship support at{" "}
               <a
                 href="mailto:teaching@pupilfirst.org"
                 className="text-secondary-500 underline hover:text-secondary-300"
