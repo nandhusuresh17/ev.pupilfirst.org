@@ -158,7 +158,7 @@ export default function () {
                 title="When?"
                 content={
                   <p>
-                    November 15, 2022 to November 14, 2023{" "}
+                    November 22, 2022 to November 21, 2023{" "}
                     <span className="italic text-gray-300">(tentative)</span>
                   </p>
                 }
@@ -243,19 +243,19 @@ export default function () {
                     </p>
                     <div className="text-xs md:text-sm mt-2 divide-y divide-gray-700">
                       <DateAndContent
-                        date="October 13, 2022"
+                        date="October 17, 2022"
                         content="LITE EV Teaching Fellowships Call"
                       />
                       <DateAndContent
-                        date="November 02, 2022"
+                        date="November 09, 2022"
                         content="Last Date to Apply for EV Teaching Fellowship"
                       />
                       <DateAndContent
-                        date="November 07, 2022"
+                        date="November 15, 2022"
                         content="Shortlisted Fellowship Candidates Announced"
                       />
                       <DateAndContent
-                        date="November 14, 2022"
+                        date="November 22, 2022"
                         content="LITE EV Teaching Fellows Announced"
                       />
                     </div>
@@ -401,19 +401,19 @@ export default function () {
         <SectionWithHeading heading="Schedule">
           <div className="bg-gray-800 border border-gray-700 rounded-lg divide-y divide-gray-700">
             <DateAndContent
-              date="October 13, 2022"
+              date="October 17, 2022"
               content="LITE EV Teaching Fellowships Call"
             />
             <DateAndContent
-              date="November 02, 2022"
+              date="November 09, 2022"
               content="Last Date to Apply for EV Teaching Fellowship"
             />
             <DateAndContent
-              date="November 07, 2022"
+              date="November 15, 2022"
               content="Shortlisted Fellowship Candidates Announced"
             />
             <DateAndContent
-              date="November 14, 2022"
+              date="November 22, 2022"
               content="LITE EV Teaching Fellows Announced"
             />
           </div>
@@ -447,7 +447,7 @@ export default function () {
               </svg>
             </div>
             <p className="text-lg">
-              <span className="font-semibold">02 November 2022:</span> The last
+              <span className="font-semibold">09 November 2022:</span> The last
               date to apply for LITE EV Teaching Fellowships.
             </p>
           </div>
