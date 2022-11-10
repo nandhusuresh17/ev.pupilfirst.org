@@ -247,15 +247,15 @@ export default function () {
                         content="LITE EV Teaching Fellowships Call"
                       />
                       <DateAndContent
-                        date="November 09, 2022"
+                        date="November 09 November 25, 2022"
                         content="Last Date to Apply for EV Teaching Fellowship"
                       />
                       <DateAndContent
-                        date="November 15, 2022"
+                        date="TBD"
                         content="Shortlisted Fellowship Candidates Announced"
                       />
                       <DateAndContent
-                        date="November 22, 2022"
+                        date="TBD"
                         content="LITE EV Teaching Fellows Announced"
                       />
                     </div>
@@ -405,15 +405,15 @@ export default function () {
               content="LITE EV Teaching Fellowships Call"
             />
             <DateAndContent
-              date="November 09, 2022"
+              date="November 09 November 25, 2022"
               content="Last Date to Apply for EV Teaching Fellowship"
             />
             <DateAndContent
-              date="November 15, 2022"
+              date="TBD"
               content="Shortlisted Fellowship Candidates Announced"
             />
             <DateAndContent
-              date="November 22, 2022"
+              date="TBD"
               content="LITE EV Teaching Fellows Announced"
             />
           </div>
@@ -447,7 +447,7 @@ export default function () {
               </svg>
             </div>
             <p className="text-lg">
-              <span className="font-semibold">09 November 2022:</span> The last
+              <span className="font-semibold">25 November 2022:</span> The last
               date to apply for LITE EV Teaching Fellowships.
             </p>
           </div>
