@@ -259,16 +259,26 @@ export default function () {
                       />
                       <DateAndContent
                         date={
-                          <span className="italic text-gray-400">
-                            To be finalized
+                          <span>
+                            <span className="block text-sm text-gray-400 line-through">
+                              November 17
+                            </span>
+                            <span className="italic text-gray-100">
+                              To be finalized
+                            </span>
                           </span>
                         }
                         content="Shortlisted Fellowship Candidates Announced"
                       />
                       <DateAndContent
                         date={
-                          <span className="italic text-gray-400">
-                            To be finalized
+                          <span>
+                            <span className="block text-sm text-gray-400 line-through">
+                              November 24
+                            </span>
+                            <span className="italic text-gray-100">
+                              To be finalized
+                            </span>
                           </span>
                         }
                         content="LITE EV Teaching Fellows Announced"
@@ -432,13 +442,27 @@ export default function () {
             />
             <DateAndContent
               date={
-                <span className="italic text-gray-400">To be finalized</span>
+                <span>
+                  <span className="block text-sm md:text-lg text-gray-400 line-through">
+                    November 17
+                  </span>
+                  <span className="italic text-gray-100 leading-tight">
+                    To be finalized
+                  </span>
+                </span>
               }
               content="Shortlisted Fellowship Candidates Announced"
             />
             <DateAndContent
               date={
-                <span className="italic text-gray-400">To be finalized</span>
+                <span>
+                  <span className="block text-sm md:text-lg text-gray-400 line-through">
+                    November 24
+                  </span>
+                  <span className="italic text-gray-100 leading-tight">
+                    To be finalized
+                  </span>
+                </span>
               }
               content="LITE EV Teaching Fellows Announced"
             />
