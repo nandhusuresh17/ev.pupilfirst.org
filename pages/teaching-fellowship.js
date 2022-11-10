@@ -260,7 +260,7 @@ export default function () {
                       <DateAndContent
                         date={
                           <span className="italic text-gray-400">
-                            To be determined
+                            To be announced
                           </span>
                         }
                         content="Shortlisted Fellowship Candidates Announced"
@@ -268,7 +268,7 @@ export default function () {
                       <DateAndContent
                         date={
                           <span className="italic text-gray-400">
-                            To be determined
+                            To be announced
                           </span>
                         }
                         content="LITE EV Teaching Fellows Announced"
@@ -432,13 +432,13 @@ export default function () {
             />
             <DateAndContent
               date={
-                <span className="italic text-gray-400">To be determined</span>
+                <span className="italic text-gray-400">To be announced</span>
               }
               content="Shortlisted Fellowship Candidates Announced"
             />
             <DateAndContent
               date={
-                <span className="italic text-gray-400">To be determined</span>
+                <span className="italic text-gray-400">To be announced</span>
               }
               content="LITE EV Teaching Fellows Announced"
             />
