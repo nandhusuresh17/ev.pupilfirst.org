@@ -157,10 +157,10 @@ export default function () {
               <DescriptionListItem
                 title="When?"
                 content={
-                  <p>
+                  <span>
                     November 22, 2022 to November 21, 2023{" "}
                     <span className="italic text-gray-300">(tentative)</span>
-                  </p>
+                  </span>
                 }
               />
               <DescriptionListItem
@@ -183,7 +183,7 @@ export default function () {
               <DescriptionListItem
                 title="Course delivery?"
                 content={
-                  <p>
+                  <span>
                     The EV courses are taken by students{" "}
                     <span className="italic font-medium">
                       completely asynchronously
@@ -193,7 +193,7 @@ export default function () {
                     review, ask questions on forums when they have doubts, get
                     feedback to improve their submission, and resubmit their
                     work after incorporating the feedback
-                  </p>
+                  </span>
                 }
               />
               <DescriptionListItem
@@ -207,7 +207,7 @@ export default function () {
               <DescriptionListItem
                 title="Open Source?"
                 content={
-                  <p>
+                  <span>
                     Yes. All curriculums are open-sourced under a Creative
                     Commons Attribution-ShareAlike 4.0 International{" "}
                     <a
@@ -218,7 +218,7 @@ export default function () {
                       (CC BY-SA 4.0)
                     </a>{" "}
                     license.
-                  </p>
+                  </span>
                 }
               />
               <DescriptionListItem
@@ -247,15 +247,30 @@ export default function () {
                         content="LITE EV Teaching Fellowships Call"
                       />
                       <DateAndContent
-                        date="November 09 November 25, 2022"
+                        date={
+                          <span>
+                            <span className="block text-sm text-gray-400 line-through">
+                              November 09
+                            </span>
+                            November 25, 2022
+                          </span>
+                        }
                         content="Last Date to Apply for EV Teaching Fellowship"
                       />
                       <DateAndContent
-                        date="TBD"
+                        date={
+                          <span className="italic text-gray-400">
+                            To be determined
+                          </span>
+                        }
                         content="Shortlisted Fellowship Candidates Announced"
                       />
                       <DateAndContent
-                        date="TBD"
+                        date={
+                          <span className="italic text-gray-400">
+                            To be determined
+                          </span>
+                        }
                         content="LITE EV Teaching Fellows Announced"
                       />
                     </div>
@@ -405,15 +420,26 @@ export default function () {
               content="LITE EV Teaching Fellowships Call"
             />
             <DateAndContent
-              date="November 09 November 25, 2022"
+              date={
+                <span>
+                  <span className="block text-lg text-gray-400 line-through">
+                    November 09
+                  </span>
+                  November 25, 2022
+                </span>
+              }
               content="Last Date to Apply for EV Teaching Fellowship"
             />
             <DateAndContent
-              date="TBD"
+              date={
+                <span className="italic text-gray-400">To be determined</span>
+              }
               content="Shortlisted Fellowship Candidates Announced"
             />
             <DateAndContent
-              date="TBD"
+              date={
+                <span className="italic text-gray-400">To be determined</span>
+              }
               content="LITE EV Teaching Fellows Announced"
             />
           </div>
@@ -431,7 +457,7 @@ export default function () {
             more details on assignments/tasks to be done by you that will help
             us understand your skill in authoring and teaching.
           </p>
-          <div className="flex items-start md:items-center gap-4 p-4 rounded-lg bg-gray-800 mt-10">
+          {/* <div className="flex items-start md:items-center gap-4 p-4 rounded-lg bg-gray-800 mt-10">
             <div className="flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -450,7 +476,7 @@ export default function () {
               <span className="font-semibold">25 November 2022:</span> The last
               date to apply for LITE EV Teaching Fellowships.
             </p>
-          </div>
+          </div> */}
           <div className="mt-10 bg-gradient-to-r from-secondary-500 to-primary-500 px-6 py-6 space-y-6 md:space-y-0 flex flex-col md:flex-row items-center justify-between rounded-lg text-black">
             <h3 className="flex items-center space-x-3 text-center text-primary-100 md:text-left leading-tight">
               Become a Teaching Fellow
@@ -460,11 +486,11 @@ export default function () {
                   width="16"
                   height="16"
                   fill="currentColor"
-                  class="w-8 h-8"
+                  className="w-8 h-8"
                   viewBox="0 0 16 16"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
                   />
                 </svg>
