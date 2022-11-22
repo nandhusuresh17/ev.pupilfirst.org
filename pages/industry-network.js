@@ -315,7 +315,7 @@ export default function Page() {
               content="Last Date to Apply"
             />
             <DateAndContent
-              date="January 10, 2022"
+              date="January 10, 2023"
               content="LITE EV Hiring Network Announced"
             />
           </div>
