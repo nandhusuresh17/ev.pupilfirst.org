@@ -399,7 +399,7 @@ export default function Page() {
             <p>
               If you have any questions, email us at{" "}
               <a
-                href="mailto:hiring@pupilfirst.org"
+                href="mailto:ev-hiring@pupilfirst.org"
                 className="text-secondary-500 underline hover:text-secondary-300"
               >
                 hiring@pupilfirst.org
