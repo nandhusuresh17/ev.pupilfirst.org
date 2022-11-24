@@ -252,7 +252,7 @@ export default function () {
                             <span className="block text-sm text-gray-400 line-through">
                               November 09
                             </span>
-                            November 25, 2022
+                            January 03, 2023
                           </span>
                         }
                         content="Last Date to Apply for EV Teaching Fellowship"
@@ -435,7 +435,7 @@ export default function () {
                   <span className="block text-lg text-gray-400 line-through">
                     November 09
                   </span>
-                  November 25, 2022
+                  January 03, 2023
                 </span>
               }
               content="Last Date to Apply for EV Teaching Fellowship"
