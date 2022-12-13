@@ -158,14 +158,14 @@ export default function () {
                 title="When?"
                 content={
                   <span>
-                    November 22, 2022 to November 21, 2023{" "}
+                    January 17, 2023 to January 16, 2024{" "}
                     <span className="italic text-gray-300">(tentative)</span>
                   </span>
                 }
               />
               <DescriptionListItem
                 title="Effort?"
-                content="15 hours per week for 12 months. Daily check-in required."
+                content="15 hours per week for 12 months. Daily check-in required (Flexible hours)."
               />
               <DescriptionListItem
                 title="Stipend?"
@@ -243,11 +243,11 @@ export default function () {
                     </p>
                     <div className="text-xs md:text-sm mt-2 divide-y divide-gray-700">
                       <DateAndContent
-                        date="December 12, 2022"
+                        date="December 13, 2022"
                         content="LITE EV Teaching Fellowships Call"
                       />
                       <DateAndContent
-                        date={<span>January 03, 2023</span>}
+                        date={<span>January 10, 2023</span>}
                         content="Last Date to Apply for EV Teaching Fellowship"
                       />
                       <DateAndContent
@@ -413,11 +413,11 @@ export default function () {
         <SectionWithHeading heading="Schedule">
           <div className="bg-gray-800 border border-gray-700 rounded-lg divide-y divide-gray-700">
             <DateAndContent
-              date="December 12, 2022"
+              date="December 13, 2022"
               content="LITE EV Teaching Fellowships Call"
             />
             <DateAndContent
-              date={<span>January 03, 2023</span>}
+              date={<span>January 10, 2023</span>}
               content="Last Date to Apply for EV Teaching Fellowship"
             />
             <DateAndContent
