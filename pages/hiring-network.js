@@ -227,15 +227,15 @@ export default function Page() {
                     </p>
                     <div className="text-xs md:text-sm mt-2 divide-y divide-gray-700">
                       <DateAndContent
-                        date="November 28, 2022"
+                        date="January 23, 2023"
                         content="LITE EV Hiring Network Call Launched"
                       />
                       <DateAndContent
-                        date="January 03, 2023"
+                        date="February 13, 2023"
                         content=" Last Date to Apply"
                       />
                       <DateAndContent
-                        date="January 10, 2023"
+                        date="February 16, 2023"
                         content="LITE EV Hiring Network Announced"
                       />
                     </div>
@@ -367,15 +367,15 @@ export default function Page() {
         <SectionWithHeading heading="Schedule">
           <div className="bg-gray-800 border border-gray-700 rounded-lg divide-y divide-gray-700">
             <DateAndContent
-              date="November 28, 2022"
+              date="January 23, 2023"
               content="LITE EV Hiring Network Call Launched"
             />
             <DateAndContent
-              date="January 03, 2023"
+              date="February 13, 2023"
               content="Last Date to Apply"
             />
             <DateAndContent
-              date="January 10, 2023"
+              date="February 16, 2023"
               content="LITE EV Hiring Network Announced"
             />
           </div>
