@@ -12,7 +12,7 @@ export default function Page() {
         <title>LITE EV Industry Hiring Network</title>
         <meta
           name="description"
-          content="Would you like to be an early adopter to hire student EV engineers trained in a curriculum developed by practicing industry professionals and approved as the National Model Curriculum for Electric Vehicle Technology by the “All India Council for Technical Education (AICTE)”?
+          content="Would you like to be an early adopter to hire student EV engineers trained in national model curriculum developed by practicing industry professionals?”
           "
         ></meta>
         <meta
@@ -67,11 +67,8 @@ export default function Page() {
               EV Industry Hiring Network
             </h1>
             <p className="text-lg lg:text-xl 2xl:text-2xl max-w-3xl 2xl:max-w-5xl sm:text-center mt-6 px-4">
-              Would you like to be an early adopter to hire student EV engineers
-              trained in a curriculum developed by practicing industry
-              professionals and approved as the National Model Curriculum for
-              Electric Vehicle Technology by the “All India Council for
-              Technical Education (AICTE)”?
+              Would you like to be an early adopter to hire student EV engineers trained in 
+              national model curriculum developed by practicing industry professionals?
             </p>
             <p>
               <a
