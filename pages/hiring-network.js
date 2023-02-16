@@ -238,11 +238,11 @@ export default function Page() {
                         content="LITE EV Hiring Network Call Launched"
                       />
                       <DateAndContent
-                        date="February 13, 2023"
+                        date="February 28, 2023"
                         content=" Last Date to Apply"
                       />
                       <DateAndContent
-                        date="February 16, 2023"
+                        date="March 06, 2023"
                         content="LITE EV Hiring Network Announced"
                       />
                     </div>
@@ -378,11 +378,11 @@ export default function Page() {
               content="LITE EV Hiring Network Call Launched"
             />
             <DateAndContent
-              date="February 13, 2023"
+              date="February 28, 2023"
               content="Last Date to Apply"
             />
             <DateAndContent
-              date="February 16, 2023"
+              date="March 06, 2023"
               content="LITE EV Hiring Network Announced"
             />
           </div>
