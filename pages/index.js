@@ -1,9 +1,11 @@
 import Head from "next/head";
+import PersonalizedLearningExperiece from "../components/PersonalizedLearningExperience";
+import Testimonials from "../components/Testimonials";
 
 function ImageWithDescription({ name, caption, role, imgSrc }) {
   return (
     <div>
-      <div className="rounded-lg overflow-hidden border-4 border-secondary-500 w-5/6 md:w-auto ">
+      <div className="rounded-2xl overflow-hidden w-5/6 md:w-auto ">
         <img
           src={imgSrc}
           alt={caption}
@@ -104,61 +106,33 @@ export default function Home() {
           </header>
           <div className="relative max-w-6xl 2xl:max-w-7xl flex flex-col md:flex-row justify-between mx-auto text-white pb-2 md:pb-16 px-4 xl:px-0">
             <div className="w-full md:w-7/12 flex-shrink-0 relative z-10">
-              <h1 className="hero__title-gradient text-3xl md:text-5xl lg:text-7xl 2xl:text-8xl py-2 lg:pt-8 lg:pb-4 ">
-                Electric Vehicles <br />
-                Open Program
+              <h1 className="hero__title-gradient text-3xl md:text-4xl lg:text-7xl py-2 lg:pt-8 lg:pb-4 ">
+                Welcome to the exciting world of Electric Vehicles
               </h1>
-              <p className="max-w-2xl text-sm md:text-base lg:text-xl lg:pr-12">
-                Electric Vehicles Open Program is a national programme to
-                identify the top 100 Indian undergraduate students who are
-                interested to learn and build a career in Electric Vehicles.
-              </p>
-              <div className="inline-block rounded bg-secondary-900 bg-opacity-50 py-1 px-3 mt-4 ">
-                <div className="flex sm:items-center space-x-2 font-medium text-sm text-secondary-300">
-                  <span className="block pt-1 sm:pt-0 flex-shrink-0">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      viewBox="0 0 16 16"
-                    >
-                      <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
-                    </svg>
-                  </span>
-                  <p>Pupilfirst has announced the results!</p>
-                </div>
+              <div className="max-w-2xl lg:pr-12 space-y-4">
+                <p>
+                  Are you ready to dive into the captivating realm of electric
+                  vehicles (EVs) and powertrains? Our EV courses are designed to
+                  ignite your curiosity and equip you with the skills to create
+                  your very own miniature EV Powertrain prototype that mimics an
+                  actual real world electric vehicle.
+                </p>
+                <p>
+                  Admissions are now open for the LITE Electric Vehicles Courses
+                  by Pupilfirst in association with Micelio Mobility. Up to Top
+                  100 students who qualify for the program get a 100%
+                  scholarship for taking the EV Courses, unleash your potential
+                  and be at the forefront of the electric vehicle revolution!
+                </p>
               </div>
-              <div className="mt-4 text-secondary-500 hover:text-primary-500">
-                <a
-                  className="flex items-center font-semibold"
-                  href="https://r.sv.co/ev-2021-results"
-                >
-                  View list of selected students
-                  <span className="pl-2 ">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      aria-hidden="true"
-                      width="16"
-                      height="16"
-                      role="img"
-                      viewBox="0 0 512 512"
-                    >
-                      <path
-                        fill="currentColor"
-                        d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
-                      />
-                    </svg>
-                  </span>
-                </a>
-              </div>
+
               <div className="pt-4 md:pt-6">
                 <a
                   className="inline-block w-full md:w-80 p-3 text-center bg-gradient-to-r from-primary-500 to-secondary-400 text-gray-900 border border-primary-500 font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-secondary-400 hover:to-primary-500 transition"
                   target="_blank"
                   href="https://docs.google.com/forms/d/e/1FAIpQLSe_h7Cr0V50c6lgX-s6inoPfTWSNRAQeGQA1W7NDMkDlxTrrA/viewform"
                 >
-                  Register For Next Course
+                  Apply Now
                 </a>
               </div>
             </div>
@@ -173,7 +147,17 @@ export default function Home() {
         </section>
         <section className="mx-4 xl:mx-0 pb-10 md:pb-16">
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border border-gray-700 relative overflow-hidden max-w-6xl 2xl:max-w-7xl mx-auto p-4 lg:p-10">
-            <div className="flex flex-col-reverse lg:flex-row lg:space-x-6">
+            <div className="flex justify-between pt-1">
+              <div className="flex-1">
+                <h2 className="font-bold text-2xl lg:text-6xl text-white leading-snug text-center">
+                  Supported by Micelio
+                  <span className="font-medium text-base lg:text-lg block pt-1">
+                    Electric mobility ecosystem leader in India.
+                  </span>
+                </h2>
+              </div>
+            </div>
+            <div className="flex flex-col-reverse lg:flex-row lg:space-x-6 pt-8">
               <div className="lg:w-1/2 flex flex-col space-y-4 mt-6 lg:mt-2">
                 <div className="bg-gradient-to-br from-primary-400 to-secondary-500 p-0.5 rounded-xl">
                   <img
@@ -214,22 +198,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="lg:w-1/2 text-white text-lg space-y-4">
-                <div className="flex justify-between pt-1">
-                  <div className="flex-1">
-                    <h2 className="text-xl md:text-3xl text-tertiary-300">
-                      Supported by Micelio,
-                      <span className="font-medium text-base lg:text-lg block pt-1">
-                        Electric mobility ecosystem leader in India.
-                      </span>
-                    </h2>
-                  </div>
-                </div>
                 <p className="text-sm md:text-base lg:text-lg">
-                  The ikigai of Micelio is to enable an ecosystem that will
-                  allow clean mobility start-ups to thrive and deliver practical
-                  carbon reduction outcomes in day to day world applications.
+                  The ikigai of Micelio Mobility is to enable an ecosystem that
+                  will allow clean mobility start-ups to thrive and deliver
+                  practical carbon reduction outcomes in day to day world
+                  applications.
                 </p>
-
                 <p className="text-sm md:text-base lg:text-lg">
                   <a
                     href="https://www.miceliostudio.com/"
@@ -278,6 +252,119 @@ export default function Home() {
                 </p>
               </div>
             </div>
+            <div className="mt-12">
+              <h2 className="font-bold text-2xl lg:text-6xl text-white leading-snug text-center">
+                Testimonials from Industry Experts
+              </h2>
+
+              <div className="mt-8 mx-auto max-w-3xl space-y-8">
+                <div className="flex flex-col items-center md:items-start md:flex-row gap-3 bg-gray-800 p-6 rounded-lg w-full">
+                  <img
+                    className="ml-0 md:-ml-16 w-32 h-32 rounded-full object-contain border-8 border-gray-800 bg-gray-700"
+                    src="{imageSrc}"
+                    alt="Sathiyaseelan Sekar"
+                  />
+
+                  <div className="flex gap-4 items-start">
+                    <svg
+                      width="54"
+                      height="44"
+                      viewBox="0 0 54 44"
+                      fill="none"
+                      className="w-8 h-8 flex-shrink-0 opacity-50"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M4.84275 6.77875C8.58408 2.72275 14.2454 0.666748 21.6667 0.666748H24.3334V8.18408L22.1894 8.61342C18.5361 9.34408 15.9948 10.7814 14.6348 12.8907C13.9251 14.0271 13.5227 15.3282 13.4668 16.6667H21.6667C22.374 16.6667 23.0523 16.9477 23.5524 17.4478C24.0525 17.9479 24.3334 18.6262 24.3334 19.3334V38.0001C24.3334 40.9414 21.9414 43.3334 19.0001 43.3334H3.00008C2.29284 43.3334 1.61456 43.0525 1.11447 42.5524C0.614369 42.0523 0.333418 41.374 0.333418 40.6667V27.3334L0.341418 19.5494C0.317418 19.2534 -0.189249 12.2401 4.84275 6.77875ZM48.3334 43.3334H32.3334C31.6262 43.3334 30.9479 43.0525 30.4478 42.5524C29.9477 42.0523 29.6667 41.374 29.6667 40.6667V27.3334L29.6747 19.5494C29.6507 19.2534 29.1441 12.2401 34.1761 6.77875C37.9174 2.72275 43.5788 0.666748 51.0001 0.666748H53.6667V8.18408L51.5227 8.61342C47.8694 9.34408 45.3281 10.7814 43.9681 12.8907C43.2585 14.0271 42.856 15.3282 42.8001 16.6667H51.0001C51.7073 16.6667 52.3856 16.9477 52.8857 17.4478C53.3858 17.9479 53.6667 18.6262 53.6667 19.3334V38.0001C53.6667 40.9414 51.2748 43.3334 48.3334 43.3334Z"
+                        fill="#A1A1AA"
+                      />
+                    </svg>
+
+                    <div className="text-white">
+                      <p className="text-lg text-gray-300">
+                        As a hiring manager at Micelio, I highly value
+                        PupilFirst's EV 101 and EV 201 courses. They offer a
+                        strong foundation in electric vehicle technology and
+                        advanced expertise in battery management systems and
+                        power electronics. The practical application and
+                        collaborative learning environment make candidates
+                        well-prepared for the challenges of the electric vehicle
+                        industry.
+                      </p>
+                      <p className="font-semibold mt-4 text-gray-200">
+                        Sathiyaseelan Sekar,
+                      </p>
+                      <p className="text-sm text-gray-400">
+                        Manager - Testing & Validation, Micelio Mobility
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex flex-col items-center md:items-start md:flex-row gap-3 bg-gray-800 p-6 rounded-lg w-full">
+                  <img
+                    className="ml-0 md:-ml-16 w-32 h-32 rounded-full object-contain border-8 border-gray-800 bg-gray-700"
+                    src="{imageSrc}"
+                    alt="S Soundararajan"
+                  />
+
+                  <div className="flex gap-4 items-start">
+                    <svg
+                      width="54"
+                      height="44"
+                      viewBox="0 0 54 44"
+                      fill="none"
+                      className="w-8 h-8 flex-shrink-0 opacity-50"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M4.84275 6.77875C8.58408 2.72275 14.2454 0.666748 21.6667 0.666748H24.3334V8.18408L22.1894 8.61342C18.5361 9.34408 15.9948 10.7814 14.6348 12.8907C13.9251 14.0271 13.5227 15.3282 13.4668 16.6667H21.6667C22.374 16.6667 23.0523 16.9477 23.5524 17.4478C24.0525 17.9479 24.3334 18.6262 24.3334 19.3334V38.0001C24.3334 40.9414 21.9414 43.3334 19.0001 43.3334H3.00008C2.29284 43.3334 1.61456 43.0525 1.11447 42.5524C0.614369 42.0523 0.333418 41.374 0.333418 40.6667V27.3334L0.341418 19.5494C0.317418 19.2534 -0.189249 12.2401 4.84275 6.77875ZM48.3334 43.3334H32.3334C31.6262 43.3334 30.9479 43.0525 30.4478 42.5524C29.9477 42.0523 29.6667 41.374 29.6667 40.6667V27.3334L29.6747 19.5494C29.6507 19.2534 29.1441 12.2401 34.1761 6.77875C37.9174 2.72275 43.5788 0.666748 51.0001 0.666748H53.6667V8.18408L51.5227 8.61342C47.8694 9.34408 45.3281 10.7814 43.9681 12.8907C43.2585 14.0271 42.856 15.3282 42.8001 16.6667H51.0001C51.7073 16.6667 52.3856 16.9477 52.8857 17.4478C53.3858 17.9479 53.6667 18.6262 53.6667 19.3334V38.0001C53.6667 40.9414 51.2748 43.3334 48.3334 43.3334Z"
+                        fill="#A1A1AA"
+                      />
+                    </svg>
+
+                    <div className="text-white">
+                      <p className="text-lg text-gray-300">
+                        As a seasoned professional in the electric vehicle (EV)
+                        industry, I am thrilled to provide my testimonial for
+                        the Electric Vehicle Courses. One of the key advantages
+                        of this program is its emphasis on practical skills.
+                        Through various assignments, projects, and simulations,
+                        participants gain invaluable experience. These exercises
+                        foster the development of essential skills such as
+                        problem-solving and critical thinking. Employers in the
+                        industry highly value these skills, making graduates of
+                        the program attractive candidates for job opportunities.
+                      </p>
+                      <p className="text-lg text-gray-300 mt-4">
+                        With regular updates to the curriculum, participants
+                        stay up-to-date with emerging technologies, industry
+                        standards, and regulations. This knowledge ensures that
+                        graduates are equipped with the most relevant and
+                        current information, making them highly adaptable and
+                        valuable assets to prospective employers.
+                      </p>
+                      <p className="text-lg text-gray-300 mt-4">
+                        The Electric Vehicle Online Program is an outstanding
+                        opportunity for fresh graduates to excel in the EV
+                        industry. Its comprehensive curriculum, practical skill
+                        emphasis, sustainability focus, and alignment with
+                        industry job requirements make it an exceptional choice.
+                        I highly recommend this program for those looking to
+                        confidently enter the electric vehicle field and be
+                        well-prepared for future challenges and opportunities.
+                      </p>
+                      <p className="font-semibold mt-4 text-gray-200">
+                        S Soundararajan,
+                      </p>
+                      <p className="text-sm text-gray-400">
+                        Head - Mechanical Engineering, Micelio Mobility
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -297,99 +384,93 @@ export default function Home() {
                   <div className="space-y-6 md:space-y-12 md:pr-12 pt-4 md:pt-10 ml-4 lg:ml-24 2xl:ml-44">
                     <div>
                       <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">
-                        What is this program?
+                        Engaging Hands-On Experience.
                       </h3>
                       <p className="ml-8 pt-1 text-sm lg:text-lg text-white">
-                        Industry-led introductory course in Electric Vehicles
-                        (EV) for undergraduate students pursuing engineering
-                        degrees in India.
+                        You'll be working hands-on with our exclusive DIY
+                        hardware kit, which includes all the necessary
+                        components to build and experiment with your own EV
+                        Powertrain prototype. Get ready to see your designs come
+                        to life!
                       </p>
                     </div>
                     <div>
                       <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">
-                        Why?
+                        Expert Guidance.
                       </h3>
                       <p className="ml-8 pt-1 text-sm lg:text-lg text-white">
-                        To give undergraduate students an overview of the
-                        Electric Vehicle ecosystem to help them decide if they
-                        wish to build a career in it.
+                        Our team of vastly experienced EV engineers will guide
+                        you through this journey, offering valuable insights,
+                        practical tips, and feedback to ensure you grasp the
+                        concepts effectively. You'll learn from the best in the
+                        industry, gaining knowledge that will set you apart. You
+                        will also be able to take help from our course Teaching
+                        Assistants (TAs) who are students who completed our
+                        courses and working towards giving their knowledge back
+                        to the EV industry.
                       </p>
                     </div>
                     <div>
                       <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">
-                        Who is this for?
+                        NEP 2020 Classrooms.
                       </h3>
                       <p className="ml-8 pt-1 text-sm lg:text-lg text-white">
-                        Students who are at least 18 years old and no older than
-                        25 years old and pursuing engineering undergraduate
-                        degree at an higher education institution in India.
+                        The National Education Policy (NEP) 2020 in India
+                        emphasizes the importance of learner-centered classrooms
+                        as a transformative approach to education. In
+                        learner-centered classrooms, students are the most
+                        active participants in their own learning process. Our
+                        teaching methodology is aligned with the vision of NEP
+                        2020, bringing the 21st century educational reforms to
+                        your classrooms.
                       </p>
                     </div>
                     <div>
                       <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">
-                        When?
+                        AICTE Approved Curriculum.
                       </h3>
                       <p className="ml-8 pt-1 text-sm lg:text-lg text-white">
-                        April 23 - May 16, 2021
+                        Our meticulously crafted curriculum covers all the
+                        essential aspects of EV powertrains, from the
+                        fundamentals to advanced topics which has been prepared
+                        by practicing industry professionals. You'll explore the
+                        principles behind electric vehicle propulsion, battery
+                        management systems, motor control, and much more. By the
+                        end of both the EV courses, you'll have a solid
+                        foundation in electric vehicle technology.
                       </p>
                     </div>
                     <div>
                       <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">
-                        Effort?
+                        Inspiring Discord Community.
                       </h3>
                       <p className="ml-8 pt-1 text-sm lg:text-lg text-white">
-                        25 hours of highly enjoyable study & tasks over the
-                        course of 3 weeks.
+                        Join a vibrant community of like-minded enthusiasts who
+                        share your passion for electric vehicles hosted on
+                        DiscordTM. You will be able to take help from coaches,
+                        Teaching Assistants and fellow students when you are
+                        stuck. You will also be able to network, exchange ideas
+                        with fellow students, instructors, and professionals and
+                        also be part of engaging discussions regarding the EV
+                        Space, expanding your horizons and building new
+                        connections.
                       </p>
                     </div>
                     <div>
                       <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">
-                        Format?
+                        EV Hiring Network.
                       </h3>
                       <p className="ml-8 pt-1 text-sm lg:text-lg text-white">
-                        Self-paced learning via task around text and video
-                        tutorials
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">
-                        Mentorship?
-                      </h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg text-white">
-                        AMAs with industry veterans and a dedicated Q&amp;A
-                        forum.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">
-                        Certificate?
-                      </h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg text-white">
-                        Yes. Upon successful completion of the program, students
-                        will receive a certificate.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">
-                        Cost
-                      </h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg text-white">
-                        Free
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">
-                        More?
-                      </h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg text-white">
-                        Read the
-                        <a
-                          href="https://r.sv.co/ev-open-terms"
-                          target="_blank"
-                          className="pl-1 text-primary-400 underline cursor-pointer hover:text-primary-500"
-                        >
-                          terms and conditions
-                        </a>
+                        We are also working on creating the EV Hiring Network, a
+                        dynamic platform connecting talented individuals with
+                        exciting internship and entry-level full-time
+                        opportunities in the electric vehicle (EV) industry. Our
+                        network aims to bring together a diverse range of
+                        forward-thinking companies, from cutting-edge startups
+                        to established industry leaders, all united by their
+                        commitment to shaping the future of transportation.
+                        Stand a chance to receiving opportunities in the EV
+                        Industry and thereby starting your career in this space.
                       </p>
                     </div>
                   </div>
@@ -474,18 +555,18 @@ export default function Home() {
               <div className="pt-10 lg:pt-20">
                 <div className="heading-with-leftborder">
                   <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-tight ml-4 lg:mx-auto">
-                    Prepared by Industry Experts
+                    Dynamic Curriculum by Industry Experts
                   </h2>
                 </div>
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
                 <div className="text-white">
                   <p className="text-sm md:text-base lg:text-lg mt-4">
-                    The course is hosted online on the Pupilfirst platform and
-                    has been jointly authored by <br />
-                    Mr. Swapnil Mankame and Dr. Saurabh Markandeya who have deep
-                    industry experience in <br />
-                    the Electric Vehicles domain.
+                    Learn the technology that fuels the vehicles of tomorrow by
+                    learning a curriculum designed by practicing Industry
+                    professionals. This curriculum has also been approved by
+                    AICTE as the national model curriculum for Open Electives in
+                    Electric Vehicles.
                   </p>
                 </div>
               </div>
@@ -534,212 +615,33 @@ export default function Home() {
                     role={
                       <>
                         <strong>Course Author &amp; Full time coach</strong>{" "}
-                        Entrepreneur in the EV space and ecosystem leader
+                        Entrepreneur in the EV space and ecosystem leader.
                       </>
                     }
                     imgSrc="people/Swapnil-Mankame.png"
                   />
                   <ImageWithDescription
-                    name="Dr. Saurabh Markandeya"
+                    name="Kishor Kumar K"
                     caption={
                       <>
-                        Co-CEO at The SHADO Group &amp; <br />
-                        Co-founder at AdarinET
+                        Design & Development Engineer (Motor and Inverter),
+                        Garrett Advancing Motion (formerly Honeywell Turbo
+                        technologies), Bangalore
                       </>
                     }
                     role={
                       <>
-                        <strong>Head Coach &amp; Course Reviewer</strong>{" "}
-                        Research scholar and entrepreneur in the EV space for
-                        over 5 years.
+                        <strong>Update text here &amp; </strong>
                       </>
                     }
-                    imgSrc="people/Dr-Saurabh-Markandeya.png"
+                    imgSrc="people/Kishor_Kumar_K.png"
                   />
-                  <ImageWithDescription
-                    name="Nandhu Suresh"
-                    caption={<>Course Operations Associate at Pupilfirst</>}
-                    role={
-                      <>
-                        <strong>Teaching Assistant and Course Reviewer.</strong>
-                      </>
-                    }
-                    imgSrc="people/Nandhu-Suresh.png"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="bg-gray-900 relative overflow-hidden">
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto relative z-10">
-            <div className="border-l border-gray-700 mx-4 xl:mx-0">
-              <div className="max-w-4xl mx-auto text-white pt-10 lg:pt-20">
-                <div className="max-w-4xl p-4 md:px-8 md:py-10 lg:px-12 lg:py-10 bg-gradient-to-br from-gray-800 to-gray-900 rounded-r-lg md:rounded-lg border border-gray-700 relative shadow-lg -ml-px md:ml-0">
-                  <div className="absolute bg-gradient-to-r from-primary-400 to-secondary-400 rounded-b-md h-1 md:h-2 w-20 md:w-28 top-0 left-4 md:left-8 lg:left-12"></div>
-                  <div>
-                    <h3 className="text-lg lg:text-4xl max-w-lg leading-snug lg:leading-10">
-                      Ask Me Anything (AMA) Session with experts working in the
-                      EV Domain
-                    </h3>
-                    <p className="text-sm md:text-base lg:text-lg pt-4">
-                      You will hear experiences and stories of people in the EV
-                      industry around their career in the domain, opportunities,
-                      skill requirement and how the industry works today. The
-                      best things about these AMAs are the free-wheeling
-                      question and answer session where you talk with the
-                      speakers about the most pressing questions in your mind.
-                    </p>
-                  </div>
-                  <div
-                    className="hidden lg:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full"
-                    aria-hidden="true"
-                  >
-                    <div className="relative h-full max-w-7xl mx-auto">
-                      <div className="absolute ama-section__corner-image">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="293"
-                          height="211"
-                        >
-                          <defs>
-                            <linearGradient
-                              x1="2.59498185%"
-                              y1="32.8028691%"
-                              x2="100%"
-                              y2="68.8564246%"
-                              id="A"
-                            >
-                              <stop stop-color="#13cef8" offset="0%" />
-                              <stop stop-color="#5afba6" offset="100%" />
-                            </linearGradient>
-                            <linearGradient
-                              x1="2.59498185%"
-                              y1="39.1009916%"
-                              x2="100%"
-                              y2="61.9506173%"
-                              id="B"
-                            >
-                              <stop stop-color="#13cef8" offset="0%" />
-                              <stop stop-color="#5afba6" offset="100%" />
-                            </linearGradient>
-                            <linearGradient
-                              x1="2.59498185%"
-                              y1="32.5250972%"
-                              x2="100%"
-                              y2="69.1609977%"
-                              id="C"
-                            >
-                              <stop stop-color="#13cef8" offset="0%" />
-                              <stop stop-color="#5afba6" offset="100%" />
-                            </linearGradient>
-                            <linearGradient
-                              x1="2.59498185%"
-                              y1="40.1703672%"
-                              x2="100%"
-                              y2="60.7780612%"
-                              id="D"
-                            >
-                              <stop stop-color="#13cef8" offset="0%" />
-                              <stop stop-color="#5afba6" offset="100%" />
-                            </linearGradient>
-                          </defs>
-                          <g fill="none" fillRule="evenodd" fill-opacity=".6">
-                            <rect
-                              fill="url(#A)"
-                              width="241"
-                              height="148"
-                              rx="10"
-                            />
-                            <path
-                              fill="url(#B)"
-                              d="M33 148l22.785 22L78 148z"
-                            />
-                            <g transform="translate(146 107)">
-                              <rect
-                                fill="url(#C)"
-                                width="147"
-                                height="91"
-                                rx="10"
-                              />
-                              <path
-                                fill="url(#D)"
-                                d="M20 91l14.177 13L48 91z"
-                              />
-                            </g>
-                          </g>
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
         <section>
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
-            <div className="border-l border-gray-700 mx-4 xl:mx-0">
-              <div className="pt-10 lg:pt-16">
-                <div className="heading-with-leftborder">
-                  <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white ml-4 lg:mx-auto">
-                    What are the topics covered in the programme?
-                  </h2>
-                </div>
-              </div>
-              <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
-                <div className="grid grid-cols-12 gap-3 lg:gap-6 mt-6 lg:mt-10">
-                  <div className="relative col-span-2 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
-                    <p className="flex whitespace-nowrap text-base lg:text-2xl font-bold text-secondary-400 items-center justify-center absolute inset-0 transform -rotate-90">
-                      EV 101
-                    </p>
-                  </div>
-                  <div className="col-span-10 grid gap-y-4 md:gap-y-8">
-                    <div className="col-span-10 flex">
-                      <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">
-                        1
-                      </p>
-                      <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
-                        <p className="text-sm md:text-base font-semibold text-secondary-400">
-                          Electric Vehicle history &amp; foundations.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-span-10 flex">
-                      <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">
-                        2
-                      </p>
-                      <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
-                        <p className="text-sm md:text-base font-semibold text-secondary-400">
-                          Understand the basic components of an EV.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-span-10 flex">
-                      <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">
-                        3
-                      </p>
-                      <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
-                        <p className="text-sm md:text-base font-semibold text-secondary-400">
-                          Mathematically modelling an EV.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-span-10 flex">
-                      <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">
-                        4
-                      </p>
-                      <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
-                        <p className="text-sm md:text-base font-semibold text-secondary-400">
-                          Building your own EV conversion from scratch.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-700 mx-4 xl:mx-0">
               <div className="pt-10 lg:pt-16">
@@ -752,17 +654,14 @@ export default function Home() {
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
                 <div className="max-w-3xl mt-4">
                   <p className="text-white text-sm md:text-base lg:text-lg">
-                    This course is designed as a primer course for an
-                    intermediate course and advanced course that will pave the
-                    pathway a student can take to become a part of the Electric
-                    vehicle industry.
+                    This course is designed as a course for beginners. It'll be
+                    followed up with an intermediate course and advanced course
+                    that will pave the pathway a student can take to become a
+                    part of the Electric vehicle industry.
                   </p>
                 </div>
                 <div className="grid md:grid-cols-3 gap-4 mt-8">
                   <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 border border-secondary-400 rounded-lg p-3 md:p-5">
-                    <span className="block absolute z-10 px-2 py-1 text-xs leading-snug font-semibold text-gray-900 rounded -top-3 right-5 md:right-auto md:left-5 bg-gradient-to-r from-secondary-400 to-primary-400">
-                      This Course
-                    </span>
                     <p className="text-secondary-400 text-xl md:text-2xl font-bold">
                       EV 101
                     </p>
@@ -783,10 +682,14 @@ export default function Home() {
                       EV 301
                     </p>
                     <p className="text-sm md:text-base text-white leading-snug mt-1">
-                      Advanced course on Electric Vehicles
+                      Advanced course on Electric Vehicles (Under Development)
                     </p>
                   </div>
                 </div>
+                <p className="mt-4 text-white italic">
+                  *EV 101 course is the prerequisite for the EV 201 - Design and
+                  Build Your Own EV Powertrain Course.
+                </p>
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
                 <img
@@ -800,30 +703,13 @@ export default function Home() {
                   <p className="text-white lg:text-lg">
                     While the EV 101, the introductory course will serve as the
                     foundation, check the infographic below to understand what
-                    skills will be gained in the intermediate level course
-                    “Design and Build your own EV Powertrain" (EV 201).
+                    skills will be gained in the Intermediate course “Design and
+                    Build your own EV Powertrain (EV 201)
                   </p>
                 </div>
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0 mt-8">
                 <div className="flex space-x-2 lg:space-x-4">
-                  <div className="flex flex-col">
-                    <div className="flex h-2/5">
-                      <div className="relative grid place-items-center p-3 md:px-12 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
-                        <p className="flex whitespace-nowrap text-base lg:text-2xl font-bold text-secondary-400 items-center justify-center absolute inset-0 transform -rotate-90">
-                          EV 101
-                        </p>
-                      </div>
-                    </div>
-                    <div className="h-10"></div>
-                    <div className="flex h-3/5">
-                      <div className="relative grid place-items-center p-3 md:px-12 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
-                        <p className="flex whitespace-nowrap text-base lg:text-2xl font-bold text-primary-400 items-center justify-center absolute inset-0 transform -rotate-90">
-                          EV 201
-                        </p>
-                      </div>
-                    </div>
-                  </div>
                   <div className="block relative w-12 md:w-24 bg-gray-800 ">
                     <div className="flex items-center justify-center absolute z-0 inset-0 h-full">
                       <svg
@@ -863,9 +749,9 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div className="absolute inset-0">
-                      <div className="w-4 h-2/5"></div>
-                      <div className="relative z-10 grid grid-cols-7 gap-1 md:gap-2 h-10 w-12 md:w-24 md:h-10 -mt-4">
+                    <div className="absolute inset-0 grid gap-16">
+                      <div className="row-span-4"></div>
+                      <div className="relative z-10 grid grid-cols-7 gap-1 md:gap-2 h-10 md:h-10 -mt-4">
                         <div className="bg-gray-200"></div>
                         <div className="bg-gray-200"></div>
                         <div className="bg-gray-200"></div>
@@ -874,18 +760,38 @@ export default function Home() {
                         <div className="bg-gray-200"></div>
                         <div className="bg-gray-200"></div>
                       </div>
-                      <div className="w-4 h-3/5"></div>
+                      <div className="row-span-5"></div>
                     </div>
                   </div>
-                  <div className="flex-1">
-                    <div className="flex flex-col h-2/5 space-y-4 pb-5">
+                  <div className="grid gap-8">
+                    <div className="row-span-4 flex">
+                      <div className="relative grid place-items-center p-3 md:px-12 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
+                        <p className="flex whitespace-nowrap text-base lg:text-2xl font-bold text-secondary-400 items-center justify-center absolute inset-0 transform -rotate-90">
+                          EV 101
+                        </p>
+                      </div>
+                    </div>
+                    <div className="row-span-5 flex"></div>
+                  </div>
+                  <div className="grid">
+                    <div className="row-span-5 flex">
+                      <div className="relative grid place-items-center p-3 md:px-12 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
+                        <p className="flex whitespace-nowrap text-base lg:text-2xl font-bold text-primary-400 items-center justify-center absolute inset-0 transform -rotate-90">
+                          EV 201
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="grid gap-4">
+                    <div className="grid gap-4">
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">
                           1
                         </p>
                         <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
                           <p className="text-sm md:text-base font-semibold text-secondary-400">
-                            Electric Vehicle history &amp; foundations.
+                            Electric vehicle history &amp; foundations.
                           </p>
                         </div>
                       </div>
@@ -905,7 +811,7 @@ export default function Home() {
                         </p>
                         <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
                           <p className="text-sm md:text-base font-semibold text-secondary-400">
-                            Mathematically modelling an EV.
+                            Modeling your own EV conversion from scratch.
                           </p>
                         </div>
                       </div>
@@ -915,60 +821,20 @@ export default function Home() {
                         </p>
                         <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
                           <p className="text-sm md:text-base font-semibold text-secondary-400">
-                            Building your own EV conversion from scratch.
+                            Mathematically modeling an EV using Scilab.
                           </p>
                         </div>
                       </div>
                     </div>
 
-                    <div className="flex flex-col h-3/5 space-y-4 pt-5">
-                      <div className="flex flex-1">
-                        <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">
-                          1
-                        </p>
-                        <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
-                          <p className="text-sm md:text-base font-semibold text-primary-400">
-                            Choosing suitable drive schemes.
-                          </p>
-                        </div>
-                      </div>
-                      <div className="flex flex-1">
-                        <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">
-                          2
-                        </p>
-                        <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
-                          <p className="text-sm md:text-base font-semibold text-primary-400">
-                            Choosing proper energy storage systems.
-                          </p>
-                        </div>
-                      </div>
-                      <div className="flex flex-1">
-                        <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">
-                          3
-                        </p>
-                        <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
-                          <p className="text-sm md:text-base font-semibold text-primary-400">
-                            Identify communication protocols.
-                          </p>
-                        </div>
-                      </div>
-                      <div className="flex flex-1">
-                        <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">
-                          4
-                        </p>
-                        <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
-                          <p className="text-sm md:text-base font-semibold text-primary-400">
-                            Develop an electric propulsion unit.
-                          </p>
-                        </div>
-                      </div>
+                    <div className="grid gap-4">
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">
                           5
                         </p>
                         <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
                           <p className="text-sm md:text-base font-semibold text-primary-400">
-                            Analyze different power converter topologies.
+                            Building a 3 pole DC motor and motor controller.
                           </p>
                         </div>
                       </div>
@@ -978,8 +844,38 @@ export default function Home() {
                         </p>
                         <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
                           <p className="text-sm md:text-base font-semibold text-primary-400">
-                            Design a EV system, component or process within
-                            constraints.
+                            Understand the working of a BMS.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="flex flex-1">
+                        <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">
+                          7
+                        </p>
+                        <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
+                          <p className="text-sm md:text-base font-semibold text-primary-400">
+                            Understand various communication protocols.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="flex flex-1">
+                        <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">
+                          8
+                        </p>
+                        <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
+                          <p className="text-sm md:text-base font-semibold text-primary-400">
+                            Learn about thermal management in EVs.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="flex flex-1">
+                        <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">
+                          9
+                        </p>
+                        <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
+                          <p className="text-sm md:text-base font-semibold text-primary-400">
+                            Learn to design and build a working model of an EV
+                            Powertrain.
                           </p>
                         </div>
                       </div>
@@ -1028,80 +924,298 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
+                <div className="mt-8 text-white">
+                  <h4>Important points:</h4>
+                  <ul className="list-disc ml-4 space-y-4 text-lg">
+                    <li className="mt-3">
+                      The EV 101 course has no hardware dependency apart from a
+                      PC to access the course content and perform mathematical
+                      simulations as part of the course.
+                    </li>
+                    <li>
+                      EV 201 course required a custom designed Do-it-yourself
+                      (DIY) KIT to complete the course.{" "}
+                    </li>
+                    <li>
+                      EV 101 is a prerequisite for the EV 201 course, and hence
+                      students who complete EV 101 will only be onboarded to the
+                      next level of the course.
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
+
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-700 mx-4 xl:mx-0">
               <div className="pt-10 lg:pt-16">
                 <div className="heading-with-leftborder">
                   <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-tight ml-4 lg:mx-auto">
-                    Free
+                    Custom Designed DIY Hardware KIT.
                   </h2>
                 </div>
               </div>
-              <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
+              <div className="max-w-4xl mx-auto pl-4 lg:pl-0 pb-16">
                 <div className="max-w-3xl space-y-6 text-white">
                   <p className="mt-4 text-sm lg:text-lg">
-                    This program is created by a team of over a dozen people
-                    from across multiple companies, with support and funding
-                    from Micelio Mobility.
+                    Stand a chance to get your hands on the exclusive
+                    Arduino-based custom designed DIY hardware kit to see your
+                    designs come to life. Students who complete the EV 101
+                    course and get onboarded to EV 201, will be receiving the
+                    DIY KIT free of charge.
                   </p>
                   <p className="text-sm md:text-base lg:text-lg">
-                    This enables us to offer full scholarships for up to top 100
-                    selected students who qualify for the programme.
+                    The KIT helps students to learn hands-on regarding various
+                    aspects of an EV such as 3 pole motor design, motor
+                    controller design, Battery management systems and
+                    communication in EVs.
                   </p>
                 </div>
               </div>
             </div>
           </div>
+          <PersonalizedLearningExperiece />
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-700 mx-4 xl:mx-0">
               <div className="pt-10 lg:pt-16">
                 <div className="heading-with-leftborder">
                   <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-tight ml-4 lg:mx-auto">
-                    Join a Community with a small group of students from across
-                    the country
+                    Teaching assistants <br />
+                    for the course.
                   </h2>
                 </div>
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
                 <div className="max-w-3xl space-y-6 text-white">
                   <p className="mt-4 text-sm md:text-base lg:text-lg">
-                    Students in the programme will have access to a Community on
-                    the Pupilfirst platform for discussions with the industry
-                    experts and with other students. Through these rich
-                    community interactions, you’ll also get to build
-                    relationships early on with a peer group who’ll go on to
-                    become industry leaders in the future.
+                    Our students who have completed the EV courses as top
+                    performers from our previous courses will be contributing to
+                    upcoming batches by sharing their knowledge and experience.
+                    Student TAs, along with industry coaches, can answer any
+                    doubts, no matter how silly or complex.
                   </p>
+                </div>
+                <div className="pt-6">
+                  <div className="mt-2 lg:mt-4 grid md:grid-cols-2 gap-8">
+                    <div className="flex flex-col md:flex-row bg-gray-800 border border-gray-700 rounded-lg">
+                      <div className="w-full md:w-32 h-48 md:h-full">
+                        <img
+                          className="object-cover w-full h-full rounded-t-lg md:rounded-tr-none md:rounded-l-lg flex-shrink-0"
+                          src="people/teaching-assistants/Chetan_Shivprakash_Agroya.png"
+                          alt=""
+                        />
+                      </div>
+                      <div className="flex flex-col flex-1 justify-between text-sm">
+                        <div className="p-4">
+                          <p className="text-base md:text-lg font-semibold text-white">
+                            Chetan Shivprakash Agroya
+                          </p>
+                          <p className="text-gray-400 pt-1">
+                            B.E - Sem VIII, Mechanical Engineering
+                          </p>
+                        </div>
+                        <div>
+                          <p className="bg-gray-900 p-4 w-full font-medium text-gray-300 rounded-b-lg md:rounded-bl-none md:rounded-br-lg">
+                            PCET's Nutan Maharashtra Institute of Engineering
+                            and Technology, Talegaon, Maharashtra
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex flex-col md:flex-row bg-gray-800 border border-gray-700 rounded-lg">
+                      <div className="w-full md:w-32 h-48 md:h-full">
+                        <img
+                          className="object-cover w-full h-full rounded-t-lg md:rounded-tr-none md:rounded-l-lg flex-shrink-0"
+                          src="people/teaching-assistants/Gurudayal_Singh_Dalawat.png"
+                          alt=""
+                        />
+                      </div>
+                      <div className="flex flex-col flex-1 justify-between text-sm">
+                        <div className="p-4">
+                          <p className="text-base md:text-lg font-semibold text-white">
+                            Gurudayal Singh Dalawat
+                          </p>
+                          <p className="text-gray-400 pt-1">
+                            B.E - Sem VIII, Mechanical Engineering
+                          </p>
+                        </div>
+                        <div>
+                          <p className="bg-gray-900 p-4 w-full font-medium text-gray-300 rounded-b-lg md:rounded-bl-none md:rounded-br-lg">
+                            St. Francis Institute of Technology, Mumbai,
+                            Maharashtra
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-700 mx-4 xl:mx-0">
               <div className="pt-10 lg:pt-16">
                 <div className="heading-with-leftborder">
                   <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-tight ml-4 lg:mx-auto">
-                    Qualify as a Teaching Assistant
+                    Qualify as a Teaching Assistant.
                   </h2>
                 </div>
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
-                <div className="max-w-3xl space-y-6 text-white">
+                <div className="max-w-3xl space-y-6 text-white pb-16">
                   <p className="mt-4 text-sm md:text-base lg:text-lg">
-                    If you are among the top performers in this course, you’ll
+                    If you are among the top performers in this course, you'll
                     stand a chance to engage future batches as a Teaching
-                    Assistant (TA). As a TA, you’ll be working closely with the
+                    Assistant (TA). As a TA, you'll be working closely with the
                     industry experts and the Pupilfirst to meaningfully deliver
                     learning for students in future batches.
+                  </p>
+                  <p className="mt-4 text-sm md:text-base lg:text-lg">
+                    You will not only be able to help others but also elevate
+                    your knowledge significantly by adopting industry practices.
+                    This will be a paid position.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </section>
+
+        <Testimonials />
+        <section>
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
+            <div className="border-l border-gray-700 mx-4 xl:mx-0">
+              <div className="pt-10 lg:pt-16">
+                <div className="heading-with-leftborder">
+                  <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-tight ml-4 lg:mx-auto">
+                    Career Prospects for EV Engineers.
+                  </h2>
+                </div>
+              </div>
+              <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
+                <div className="max-w-3xl space-y-6 text-white">
+                  <p className="mt-4 text-sm md:text-base lg:text-lg">
+                    India has chalked a plan to aid its electric mobility
+                    mission by creating a specialized workforce. The blueprint
+                    aims at generating 10 million jobs in the future.
+                  </p>
+                  <p className="mt-4 text-sm md:text-base lg:text-lg">
+                    The government has initiated the{" "}
+                    <a
+                      className="text-blue-400 underline"
+                      target="_blank"
+                      href="https://pib.gov.in/newsite/printrelease.aspx?relid=116719#:~:text=Government%20of%20India%20launched%20the,on%20year%20from%202020%20onwards."
+                    >
+                      National Electric Mobility Mission Plan
+                    </a>{" "}
+                    in the year 2013 with an objective to put 6-7 million
+                    electric vehicles on Indian roads by 2020 and committing to
+                    achieving 30% e-mobility in the country by 2030.
+                  </p>
+                  <p className="mt-4 text-sm md:text-base lg:text-lg">
+                    The government's Automotive Mission Plan 2026 evaluates to
+                    create an additional 65 million jobs in the auto sector.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
+            <div className="border-l border-gray-700 mx-4 xl:mx-0">
+              <div className="pt-10 lg:pt-16">
+                <div className="heading-with-leftborder">
+                  <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-tight ml-4 lg:mx-auto">
+                    Career Pathway.
+                  </h2>
+                </div>
+              </div>
+              <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
+                <div className="max-w-3xl space-y-6 text-white">
+                  <p className="mt-4 text-sm md:text-base lg:text-lg">
+                    Approved by “All India Council for Technical Education” as
+                    National Model Curriculum for Indian Universities.
+                  </p>
+                </div>
+                <div>
+                  <img src="/course-path/ev-career-pathway.webp" />
+                </div>
+                <ul className="list-decimal space-y-6 pt-4 ml-8">
+                  <li className="text-lg font-semibold text-secondary-500">
+                    <p className="text-xl">Learn Electric Vehicles 101</p>
+                    <p className="font-normal pt-1 text-white">
+                      Duration: 20 hours/2 Academic Credits.
+                    </p>
+                    <p className="font-normal text-white">
+                      Learn to mathematically model your own two-wheeler EV
+                      Conversion.
+                    </p>
+                  </li>
+                  <li className="text-lg font-semibold text-secondary-500">
+                    <p className="text-xl">
+                      Admission to Electric Vehicles 201
+                    </p>
+                    <p className="font-normal pt-1 text-white">
+                      Duration: 80 hours/5 Academic Credits
+                    </p>
+                    <p className="font-normal text-white">
+                      Learn to design and build your own working EV Powertrain
+                      model.
+                    </p>
+                  </li>
+                  <li className="text-lg font-semibold text-secondary-500">
+                    <p className="text-xl">
+                      Gain Internships/placements through EV Hiring Network
+                    </p>
+                    <p className="font-normal pt-1 text-white">
+                      An increasing list of companies are participating to
+                      onboard EV engineer interns as you finish your courses.
+                    </p>
+                    <p className="font-normal text-white">
+                      Learn to design and build your own working EV Powertrain
+                      model.
+                    </p>
+                    <p className="py-4 text-gray-500 italic">OR</p>
+                    <div className="text-lg font-semibold text-secondary-500">
+                      <p className="text-xl">Become a Teaching Assistant</p>
+                      <p className="font-normal pt-1 text-white">
+                        Learners who complete EV 201 shall be onboarded as
+                        teaching assistants to pass on their knowledge to other
+                        students and receive a stipend & certificate. Credits
+                        can also be gained as part of the EV TA 101 course.
+                      </p>
+                    </div>
+                  </li>
+                  <li className="text-lg font-semibold text-secondary-500">
+                    <p className="text-xl">Admission to EV 301 course</p>
+                  </li>
+                  <li className="text-lg font-semibold text-secondary-500">
+                    <p className="text-xl">Join a growing Alumni Network</p>
+                    <p className="font-normal pt-1 text-white">
+                      Graduating EV students can join the Pupilfirst Alumni
+                      Network.
+                    </p>
+                  </li>
+                  <li className="text-lg font-semibold text-secondary-500">
+                    <p className="text-xl">
+                      Contribute as an Industry Teaching Fellow
+                    </p>
+                    <p className="font-normal pt-1 text-white">
+                      Students who take our courses, get placed in the industry
+                      will be extended an opportunity to contribute to the EV
+                      Courses by becoming an Industry Teaching Fellow.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section>
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-700 mx-4 xl:mx-0">
@@ -1116,42 +1230,50 @@ export default function Home() {
                 <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border border-gray-700 relative overflow-hidden divide-y divide-gray-700 mt-4">
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">
-                      April 09, 2021
+                      July 24, 2023
                     </p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200 line-through">
-                      - Application Opens
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">
+                      - Application Open for LITE Open Elective.
                     </p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">
-                      April 18, 2021
+                      August 09, 2023
                     </p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200 line-through">
-                      - Applications window ends
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">
+                      - Applications window ends.
                     </p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-basetext-sm lg:text-base text-primary-400 lg:text-right">
-                      April 22, 2021
+                      August 14, 2023
                     </p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200 line-through">
-                      - Announcement of selected students{" "}
-                    </p>
-                  </div>
-                  <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">
-                      April 23, 2021
-                    </p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200 line-through">
-                      - Program Begins
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">
+                      - Announcement of selected students.
                     </p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">
-                      May 16, 2021
+                      August 17, 2023
                     </p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200 line-through">
-                      - Program Ends
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">
+                      - Course commencement for EV 101.
+                    </p>
+                  </div>
+                  <div className="md:grid md:grid-cols-12 p-4">
+                    <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">
+                      September 21, 2023
+                    </p>
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">
+                      - Course conclusion.
+                    </p>
+                  </div>
+                  <div className="md:grid md:grid-cols-12 p-4">
+                    <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">
+                      To be announced.
+                    </p>
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">
+                      - Admission to EV 201.
                     </p>
                   </div>
                 </div>
@@ -1163,33 +1285,84 @@ export default function Home() {
               <div className="pt-10 lg:pt-16">
                 <div className="heading-with-leftborder">
                   <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-tight ml-4 lg:mx-auto">
-                    Career Prospects for <br />
-                    EV Engineers
+                    How to Apply?
                   </h2>
                 </div>
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
                 <div className="max-w-3xl space-y-6 text-white">
                   <p className="mt-4 text-sm md:text-base lg:text-lg">
-                    India has chalked a plan to aid its electric mobility
-                    mission by creating a specialised workforce. The blueprint
-                    aims at generating 10 million jobs in the future.
+                    Your admission to the courses as part of open electives will
+                    be based on your application and response to the same.
+                    Complete your application carefully and stand a chance to
+                    get selected to learn LITE EV Courses on a scholarship
+                    basis.
                   </p>
-                  <p className="text-sm md:text-base lg:text-lg">
-                    The government has initiated the National Electric Mobility
-                    Mission Plan in the year 2013 with an objective to put 6-7
-                    million electric vehicles on Indian roads by 2020 and
-                    committing to achieving 30% e-mobility in the country by
-                    2030.
+                </div>
+                <div className="sm:rounded-lg mt-8 bg-white p-8">
+                  <div className="flex gap-4 items-center">
+                    <p className="text-lg font-semibold flex">
+                      Participating Institutions
+                    </p>
+                    <div className="max-w-fullf flex-1 h-1 border-t-2 border-gray-200"></div>
+                  </div>
+                  <p className="pt-2 text-gray-600">
+                    To start with, students from the following LITE Institutions
+                    are eligible to apply.
                   </p>
-                  <p className="text-sm md:text-base lg:text-lg">
-                    The government's Automotive Mission Plan 2026 evaluates to
-                    create an additional 65 million jobs in the auto sector.
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 place-items-center px-4 py-10 gap-12">
+                    <img
+                      className="h-16 object-contain"
+                      src="/logos/institutes/University_of_Engineering_and_Management_Jaipur.png"
+                      alt="Logo of University of Engineering and Management Jaipur"
+                      title="University of Engineering and Management Jaipur"
+                    />
+                    <img
+                      className="h-20 object-contain"
+                      src="/logos/institutes/G_H_Raisoni_College_of_Engineering_Nagpur.png"
+                      alt="Logo of G H Raisoni College of Engineering Nagpur"
+                      title="G H Raisoni College of Engineering Nagpur"
+                    />
+                  </div>
+                </div>
+
+                <div className="pt-12">
+                  <h4 className="text-primary-400 text-xl lg:text-3xl font-bold">
+                    Important
+                  </h4>
+                  <ul className="list-disc text-white space-y-4 mt-3 ml-4">
+                    <li>
+                      Students can apply for the LITE EV Courses from July 17 -
+                      July 24, 2023. Applications will be closely scrutinized
+                      for selecting eligible students for taking the courses on
+                      a scholarship basis.
+                    </li>
+                    <li>
+                      Students who are not keeping up with the course work
+                      within the set timelines shall be dropped out of the
+                      course and will lose their scholarship.
+                    </li>
+                  </ul>
+                </div>
+                <div className="pt-12">
+                  <h4 className="text-primary-400 text-xl lg:text-3xl font-bold">
+                    Code of Conduct
+                  </h4>
+                  <p className="text-white pt-3">
+                    Students shall adhere to the Code of Conduct and provide
+                    only truthful information. Any discrepancies shall lead to
+                    withdrawal of scholarship and being dropped from the course.
                   </p>
                 </div>
                 <div className="pt-10 lg:pt-16">
                   <p className="text-primary-400 text-xl lg:text-3xl font-bold">
                     Questions?
+                  </p>
+                  <p className="text-white pt-3">
+                    Please refer to the Frequently Asked Questions (FAQ)
+                    document, as you will find the answers to the questions most
+                    commonly asked by students. If you still need help, please
+                    get in touch with your faculty, who shall reach out to us.
                   </p>
                   <p className="text-white pt-2">
                     Email us at
@@ -1207,8 +1380,7 @@ export default function Home() {
               <div className="max-w-4xl mx-auto py-10 lg:pb-24 pl-4 xl:pl-0">
                 <div className="rounded-lg bg-gradient-to-r from-primary-500 to-secondary-400 border border-primary-400 p-6 lg:p-12">
                   <h4 className="text-xl lg:text-5xl font-extrabold text-center">
-                    Pupilfirst has <br />
-                    announced the results!
+                    Apply Now
                   </h4>
                   <div className="mt-4 flex justify-center">
                     <a
