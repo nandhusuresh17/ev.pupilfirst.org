@@ -248,7 +248,6 @@ export default function Home() {
                   >
                     https://www.micelio.com
                   </a>
-                  /
                 </p>
               </div>
             </div>
@@ -260,8 +259,8 @@ export default function Home() {
               <div className="mt-8 mx-auto max-w-3xl space-y-8">
                 <div className="flex flex-col items-center md:items-start md:flex-row gap-3 bg-gray-800 p-6 rounded-lg w-full">
                   <img
-                    className="ml-0 md:-ml-16 w-32 h-32 rounded-full object-contain border-8 border-gray-800 bg-gray-700"
-                    src="{imageSrc}"
+                    className="ml-0 md:-ml-16 w-32 h-32 lg:w-48 lg:h-48 rounded-full object-contain border-8 border-gray-800 bg-gray-700"
+                    src="/people/Sathiyaseelan.jpg"
                     alt="Sathiyaseelan Sekar"
                   />
 
@@ -303,8 +302,8 @@ export default function Home() {
 
                 <div className="flex flex-col items-center md:items-start md:flex-row gap-3 bg-gray-800 p-6 rounded-lg w-full">
                   <img
-                    className="ml-0 md:-ml-16 w-32 h-32 rounded-full object-contain border-8 border-gray-800 bg-gray-700"
-                    src="{imageSrc}"
+                    className="ml-0 md:-ml-16 w-32 h-32 lg:w-48 lg:h-48 rounded-full object-contain border-8 border-gray-800 bg-gray-700"
+                    src="/people/S_Soundararajan.png"
                     alt="S Soundararajan"
                   />
 
@@ -751,7 +750,7 @@ export default function Home() {
 
                     <div className="absolute inset-0 grid gap-16">
                       <div className="row-span-4"></div>
-                      <div className="relative z-10 grid grid-cols-7 gap-1 md:gap-2 h-10 md:h-10 -mt-4">
+                      <div className="relative z-10 grid grid-cols-7 gap-1 md:gap-2 h-10 md:h-10">
                         <div className="bg-gray-200"></div>
                         <div className="bg-gray-200"></div>
                         <div className="bg-gray-200"></div>
@@ -763,7 +762,7 @@ export default function Home() {
                       <div className="row-span-5"></div>
                     </div>
                   </div>
-                  <div className="grid gap-8">
+                  <div className="grid gap-4">
                     <div className="row-span-4 flex">
                       <div className="relative grid place-items-center p-3 md:px-12 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
                         <p className="flex whitespace-nowrap text-base lg:text-2xl font-bold text-secondary-400 items-center justify-center absolute inset-0 transform -rotate-90">
@@ -771,9 +770,6 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
-                    <div className="row-span-5 flex"></div>
-                  </div>
-                  <div className="grid">
                     <div className="row-span-5 flex">
                       <div className="relative grid place-items-center p-3 md:px-12 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
                         <p className="flex whitespace-nowrap text-base lg:text-2xl font-bold text-primary-400 items-center justify-center absolute inset-0 transform -rotate-90">
@@ -978,7 +974,7 @@ export default function Home() {
           <PersonalizedLearningExperiece />
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-700 mx-4 xl:mx-0">
-              <div className="pt-10 lg:pt-16">
+              <div className="">
                 <div className="heading-with-leftborder">
                   <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-tight ml-4 lg:mx-auto">
                     Teaching assistants <br />
