@@ -109,7 +109,7 @@ export default function Home() {
               <h1 className="hero__title-gradient text-3xl md:text-4xl lg:text-7xl py-2 lg:pt-8 lg:pb-4 ">
                 Welcome to the exciting world of Electric Vehicles
               </h1>
-              <div className="max-w-2xl lg:pr-12 space-y-4">
+              <div className="max-w-2xl lg:pr-12 space-y-4 text-sm md:text-base lg:text-lg">
                 <p>
                   Are you ready to dive into the captivating realm of electric
                   vehicles (EVs) and powertrains? Our EV courses are designed to
@@ -117,7 +117,7 @@ export default function Home() {
                   your very own miniature EV Powertrain prototype that mimics an
                   actual real world electric vehicle.
                 </p>
-                <p>
+                <p className="mt-4">
                   Admissions are now open for the LITE Electric Vehicles Courses
                   by Pupilfirst in association with Micelio Mobility. Up to Top
                   100 students who qualify for the program get a 100%
@@ -130,9 +130,9 @@ export default function Home() {
                 <a
                   className="inline-block w-full md:w-80 p-3 text-center bg-gradient-to-r from-primary-500 to-secondary-400 text-gray-900 border border-primary-500 font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-secondary-400 hover:to-primary-500 transition"
                   target="_blank"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSe_h7Cr0V50c6lgX-s6inoPfTWSNRAQeGQA1W7NDMkDlxTrrA/viewform"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfNaUFi3-KRg6VYDgIDMdkxoWEl8OtdGqe_7GoSos9LijgItw/viewform"
                 >
-                  Apply Now
+                  Register for EV 101 Course
                 </a>
               </div>
             </div>
@@ -150,7 +150,7 @@ export default function Home() {
             <div className="flex justify-between pt-1">
               <div className="flex-1">
                 <h2 className="font-bold text-2xl lg:text-6xl text-white leading-snug text-center">
-                  Supported by Micelio
+                  Supported by Micelio Mobility
                   <span className="font-medium text-base lg:text-lg block pt-1">
                     Electric mobility ecosystem leader in India.
                   </span>
@@ -445,14 +445,20 @@ export default function Home() {
                       </h3>
                       <p className="ml-8 pt-1 text-sm lg:text-lg text-white">
                         Join a vibrant community of like-minded enthusiasts who
-                        share your passion for electric vehicles hosted on
-                        DiscordTM. You will be able to take help from coaches,
-                        Teaching Assistants and fellow students when you are
-                        stuck. You will also be able to network, exchange ideas
-                        with fellow students, instructors, and professionals and
-                        also be part of engaging discussions regarding the EV
-                        Space, expanding your horizons and building new
-                        connections.
+                        share your passion for electric vehicles hosted on{" "}
+                        <a
+                          className="text-blue-500 underline hover:text-blue-600"
+                          href="https://discord.com/"
+                        >
+                          Discord
+                        </a>
+                        <sup>TM</sup>. You will be able to take help from
+                        coaches, Teaching Assistants and fellow students when
+                        you are stuck. You will also be able to network,
+                        exchange ideas with fellow students, instructors, and
+                        professionals and also be part of engaging discussions
+                        regarding the EV Space, expanding your horizons and
+                        building new connections.
                       </p>
                     </div>
                     <div>
@@ -492,42 +498,50 @@ export default function Home() {
                         <div className="text-xs md:text-sm mt-2 space-y-3">
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-primary-400">
-                              Apr 09, 2021
+                              Jul 24, 2023
                             </p>
-                            <p className="col-span-5 text-gray-200 line-through">
-                              - Application Opens
-                            </p>
-                          </div>
-                          <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-primary-400">
-                              Apr 18, 2021
-                            </p>
-                            <p className="col-span-5 text-gray-200 line-through">
-                              - Applications window ends
+                            <p className="col-span-5 text-gray-200">
+                              - Application Open for LITE Open Elective.
                             </p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-primary-400">
-                              Apr 22, 2021
+                              Aug 09, 2023
                             </p>
-                            <p className="col-span-5 text-gray-200 line-through">
-                              - Announcement of selected students{" "}
-                            </p>
-                          </div>
-                          <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-primary-400">
-                              Apr 23, 2021
-                            </p>
-                            <p className="col-span-5 text-gray-200 line-through">
-                              - Program Begins
+                            <p className="col-span-5 text-gray-200">
+                              - Applications window ends.
                             </p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-primary-400">
-                              May 16, 2021
+                              Aug 14, 2023
                             </p>
-                            <p className="col-span-5 text-gray-200 line-through">
-                              - Program Ends
+                            <p className="col-span-5 text-gray-200">
+                              - Announcement of selected students.
+                            </p>
+                          </div>
+                          <div className="grid grid-cols-7 gap-2 md:gap-3">
+                            <p className="col-span-2 text-primary-400">
+                              Aug 17, 2023
+                            </p>
+                            <p className="col-span-5 text-gray-200">
+                              - Course commencement for EV 101.
+                            </p>
+                          </div>
+                          <div className="grid grid-cols-7 gap-2 md:gap-3">
+                            <p className="col-span-2 text-primary-400">
+                              Sep 21, 2023
+                            </p>
+                            <p className="col-span-5 text-gray-200">
+                              - Course conclusion.
+                            </p>
+                          </div>
+                          <div className="grid grid-cols-7 gap-2 md:gap-3">
+                            <p className="col-span-2 text-primary-400">
+                              To be announced.
+                            </p>
+                            <p className="col-span-5 text-gray-200">
+                              - Admission to EV 201.
                             </p>
                           </div>
                         </div>
@@ -535,9 +549,9 @@ export default function Home() {
                           <a
                             className="block px-10 py-3 text-center bg-gradient-to-r from-primary-500 to-secondary-400 text-gray-900 border border-primary-500 font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-secondary-400 hover:to-primary-500 transition"
                             target="_blank"
-                            href="https://docs.google.com/forms/d/e/1FAIpQLSe_h7Cr0V50c6lgX-s6inoPfTWSNRAQeGQA1W7NDMkDlxTrrA/viewform"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSfNaUFi3-KRg6VYDgIDMdkxoWEl8OtdGqe_7GoSos9LijgItw/viewform"
                           >
-                            Register For Next Course
+                            Register for EV 101 Course
                           </a>
                         </div>
                       </div>
@@ -602,7 +616,7 @@ export default function Home() {
                 />
               </svg>
               <div className="max-w-4xl mx-auto relative z-10 pl-4 lg:pl-0">
-                <div className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-4 md:gap-8 lg:gap-12 py-12 lg:pb-16">
+                <div className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-4 md:gap-8 lg:gap-12 py-12 lg:pb-16">
                   <ImageWithDescription
                     name="Mr. Swapnil Mankame"
                     caption={
@@ -630,7 +644,21 @@ export default function Home() {
                     }
                     role={
                       <>
-                        <strong>Update text here &amp; </strong>
+                        Kishor is a design and development engineer, who is
+                        currently working with Garrett Advancing Motion on
+                        cutting edge technologies such as High Speed High
+                        Voltage Motor and inverters for electrification of 4
+                        Wheeler Passenger and Commercial vehicles. He has 10
+                        years of experience in the field of EV and
+                        electrification. In his previous assignment with SEG
+                        Automotive he developed traction motors for leading
+                        Indian 2Wheeler OEMs which involved development of motor
+                        from scratch to Series of production with a volume of
+                        20,000 motors per month by following all the stages of
+                        product development. Apart from his work, he is also
+                        Co-founder of NPO called Athira Edutech Foundation
+                        through which he teaches STEM based education to Govt
+                        school higher primary students.
                       </>
                     }
                     imgSrc="people/Kishor_Kumar_K.png"
@@ -676,12 +704,15 @@ export default function Home() {
                       Design and Build your own EV Powertrain
                     </p>
                   </div>
-                  <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-tertiary-400 rounded-lg p-3 md:p-5">
-                    <p className="text-tertiary-400 text-xl md:text-2xl font-bold">
-                      EV 301
+                  <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-dashed border-gray-400 border-opacity-50 rounded-lg p-3 md:p-5">
+                    <p className="text-tertiary-400 text-xl md:text-2xl font-bold flex items-center space-x-2">
+                      <span>EV 301 </span>
+                      <span className="text-xs bg-gray-400 text-gray-900 rounded-lg px-1 py-0.5">
+                        (Under Development)
+                      </span>
                     </p>
                     <p className="text-sm md:text-base text-white leading-snug mt-1">
-                      Advanced course on Electric Vehicles (Under Development)
+                      Advanced course on Electric Vehicles
                     </p>
                   </div>
                 </div>
@@ -690,14 +721,8 @@ export default function Home() {
                   Build Your Own EV Powertrain Course.
                 </p>
               </div>
-              <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
-                <img
-                  className="object-cover rounded-md "
-                  src="course-path/ev-course-path.png"
-                  alt="Electric vehicle open program course pathway."
-                />
-              </div>
-              <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
+
+              <div className="max-w-4xl mx-auto pl-4 lg:pl-0 pt-4">
                 <div className="max-w-3xl mt-4">
                   <p className="text-white lg:text-lg">
                     While the EV 101, the introductory course will serve as the
@@ -920,8 +945,10 @@ export default function Home() {
                     </p>
                   </div>
                 </div>
-                <div className="mt-8 text-white">
-                  <h4>Important points:</h4>
+                <div className="mt-8 lg:mt-12 text-white">
+                  <h4 className="bg-primary-400 inline-block px-2 text-gray-900">
+                    Important points:
+                  </h4>
                   <ul className="list-disc ml-4 space-y-4 text-lg">
                     <li className="mt-3">
                       The EV 101 course has no hardware dependency apart from a
@@ -967,6 +994,22 @@ export default function Home() {
                     controller design, Battery management systems and
                     communication in EVs.
                   </p>
+                </div>
+                <div className="grid grid-cols-2 gap-2 mt-8 text-sm text-center text-gray-500 italic">
+                  <div>
+                    <img
+                      src="/hardware-kit/SMD_PCB_top.png"
+                      alt="SMD PCB top"
+                    />
+                    <p>PCB and Hardware KIT top</p>
+                  </div>
+                  <div>
+                    <img
+                      src="/hardware-kit/SMD_PCB_bottom.png"
+                      alt="SMD PCB bottom"
+                    />
+                    <p>PCB and Hardware KIT bottom</p>
+                  </div>
                 </div>
               </div>
             </div>
