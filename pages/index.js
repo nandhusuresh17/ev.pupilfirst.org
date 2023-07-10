@@ -191,7 +191,7 @@ export default function Home() {
                   <div className="bg-gradient-to-br from-primary-400 to-secondary-500 p-0.5 rounded-xl">
                     <img
                       className="object-contain w-full h-full relative rounded-xl"
-                      src="micelio-studio/micelio-studio-5.jpg"
+                      src="micelio-studio/micelio-battery-lab-1.jpg"
                       alt="Introduction to Electric Vehicles (EV101)"
                     />
                   </div>
@@ -374,7 +374,7 @@ export default function Home() {
                 <div className="lg:col-span-7 2xl:col-span-8">
                   <div className="pt-10 lg:pt-20">
                     <div className="heading-with-leftborder">
-                      <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-snug lg:ml-28 2xl:ml-44 pl-4">
+                      <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-snug lg:ml-28 2xl:ml-44">
                         Everything you
                         <br /> need to know
                       </h2>
@@ -385,7 +385,7 @@ export default function Home() {
                       <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">
                         Engaging Hands-On Experience.
                       </h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg text-white">
+                      <p className="pt-1 text-sm lg:text-lg text-white">
                         You'll be working hands-on with our exclusive DIY
                         hardware kit, which includes all the necessary
                         components to build and experiment with your own EV
@@ -397,7 +397,7 @@ export default function Home() {
                       <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">
                         Expert Guidance.
                       </h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg text-white">
+                      <p className="pt-1 text-sm lg:text-lg text-white">
                         Our team of vastly experienced EV engineers will guide
                         you through this journey, offering valuable insights,
                         practical tips, and feedback to ensure you grasp the
@@ -413,7 +413,7 @@ export default function Home() {
                       <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">
                         NEP 2020 Classrooms.
                       </h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg text-white">
+                      <p className="pt-1 text-sm lg:text-lg text-white">
                         The National Education Policy (NEP) 2020 in India
                         emphasizes the importance of learner-centered classrooms
                         as a transformative approach to education. In
@@ -428,7 +428,7 @@ export default function Home() {
                       <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">
                         AICTE Approved Curriculum.
                       </h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg text-white">
+                      <p className="pt-1 text-sm lg:text-lg text-white">
                         Our meticulously crafted curriculum covers all the
                         essential aspects of EV powertrains, from the
                         fundamentals to advanced topics which has been prepared
@@ -443,7 +443,7 @@ export default function Home() {
                       <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">
                         Inspiring Discord Community.
                       </h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg text-white">
+                      <p className="pt-1 text-sm lg:text-lg text-white">
                         Join a vibrant community of like-minded enthusiasts who
                         share your passion for electric vehicles hosted on{" "}
                         <a
@@ -465,7 +465,7 @@ export default function Home() {
                       <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">
                         EV Hiring Network.
                       </h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg text-white">
+                      <p className="pt-1 text-sm lg:text-lg text-white">
                         We are also working on creating the EV Hiring Network, a
                         dynamic platform connecting talented individuals with
                         exciting internship and entry-level full-time
@@ -567,12 +567,12 @@ export default function Home() {
             <div className="border-l border-gray-700 mx-4 xl:mx-0">
               <div className="pt-10 lg:pt-20">
                 <div className="heading-with-leftborder">
-                  <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-tight ml-4 lg:mx-auto">
+                  <h2 className="font-bold text-2xl lg:text-6xl leading-tight ml-4 lg:ml-12 xl:ml-16 2xl:ml-36 text-white">
                     Dynamic Curriculum by Industry Experts
                   </h2>
                 </div>
               </div>
-              <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
+              <div className="max-w-6xl mt-6 md:mt-8 ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
                 <div className="text-white">
                   <p className="text-sm md:text-base lg:text-lg mt-4">
                     Learn the technology that fuels the vehicles of tomorrow by
@@ -581,6 +581,57 @@ export default function Home() {
                     AICTE as the national model curriculum for Open Electives in
                     Electric Vehicles.
                   </p>
+                </div>
+
+                <div>
+                  <div className="max-w-4xl space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-4 md:gap-8 lg:gap-12 py-12 lg:pb-16">
+                    <ImageWithDescription
+                      name="Mr. Swapnil Mankame"
+                      caption={
+                        <>
+                          CEO, Founder at <br />
+                          Mankame Automotive
+                        </>
+                      }
+                      role={
+                        <>
+                          <strong>Course Author &amp; Full time coach</strong>{" "}
+                          Entrepreneur in the EV space and ecosystem leader.
+                        </>
+                      }
+                      imgSrc="people/Swapnil-Mankame.png"
+                    />
+                    <ImageWithDescription
+                      name="Kishor Kumar K"
+                      caption={
+                        <>
+                          Design & Development Engineer (Motor and Inverter),
+                          Garrett Advancing Motion (formerly Honeywell Turbo
+                          technologies), Bangalore
+                        </>
+                      }
+                      role={
+                        <>
+                          Kishor is a design and development engineer, who is
+                          currently working with Garrett Advancing Motion on
+                          cutting edge technologies such as High Speed High
+                          Voltage Motor and inverters for electrification of 4
+                          Wheeler Passenger and Commercial vehicles. He has 10
+                          years of experience in the field of EV and
+                          electrification. In his previous assignment with SEG
+                          Automotive he developed traction motors for leading
+                          Indian 2Wheeler OEMs which involved development of
+                          motor from scratch to Series of production with a
+                          volume of 20,000 motors per month by following all the
+                          stages of product development. Apart from his work, he
+                          is also Co-founder of NPO called Athira Edutech
+                          Foundation through which he teaches STEM based
+                          education to Govt school higher primary students.
+                        </>
+                      }
+                      imgSrc="people/Kishor_Kumar_K.png"
+                    />
+                  </div>
                 </div>
               </div>
               <svg
@@ -615,56 +666,6 @@ export default function Home() {
                   fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)"
                 />
               </svg>
-              <div className="max-w-4xl mx-auto relative z-10 pl-4 lg:pl-0">
-                <div className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-4 md:gap-8 lg:gap-12 py-12 lg:pb-16">
-                  <ImageWithDescription
-                    name="Mr. Swapnil Mankame"
-                    caption={
-                      <>
-                        CEO, Founder at <br />
-                        Mankame Automotive
-                      </>
-                    }
-                    role={
-                      <>
-                        <strong>Course Author &amp; Full time coach</strong>{" "}
-                        Entrepreneur in the EV space and ecosystem leader.
-                      </>
-                    }
-                    imgSrc="people/Swapnil-Mankame.png"
-                  />
-                  <ImageWithDescription
-                    name="Kishor Kumar K"
-                    caption={
-                      <>
-                        Design & Development Engineer (Motor and Inverter),
-                        Garrett Advancing Motion (formerly Honeywell Turbo
-                        technologies), Bangalore
-                      </>
-                    }
-                    role={
-                      <>
-                        Kishor is a design and development engineer, who is
-                        currently working with Garrett Advancing Motion on
-                        cutting edge technologies such as High Speed High
-                        Voltage Motor and inverters for electrification of 4
-                        Wheeler Passenger and Commercial vehicles. He has 10
-                        years of experience in the field of EV and
-                        electrification. In his previous assignment with SEG
-                        Automotive he developed traction motors for leading
-                        Indian 2Wheeler OEMs which involved development of motor
-                        from scratch to Series of production with a volume of
-                        20,000 motors per month by following all the stages of
-                        product development. Apart from his work, he is also
-                        Co-founder of NPO called Athira Edutech Foundation
-                        through which he teaches STEM based education to Govt
-                        school higher primary students.
-                      </>
-                    }
-                    imgSrc="people/Kishor_Kumar_K.png"
-                  />
-                </div>
-              </div>
             </div>
           </div>
         </section>
@@ -673,14 +674,14 @@ export default function Home() {
             <div className="border-l border-gray-700 mx-4 xl:mx-0">
               <div className="pt-10 lg:pt-16">
                 <div className="heading-with-leftborder">
-                  <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-tight ml-4 lg:mx-auto">
+                  <h2 className="font-bold text-2xl lg:text-6xl leading-tight ml-4 lg:ml-12 xl:ml-16 2xl:ml-36 text-white">
                     Beginner to advanced courses
                   </h2>
                 </div>
               </div>
-              <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
-                <div className="max-w-3xl mt-4">
-                  <p className="text-white text-sm md:text-base lg:text-lg">
+              <div className="max-w-6xl 2xl:max-w-7xl mx-auto ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
+                <div className="pt-4 text-2xl lg:text-6xl leading-tight text-white">
+                  <p className="text-white text-base lg:text-lg">
                     This course is designed as a course for beginners. It'll be
                     followed up with an intermediate course and advanced course
                     that will pave the pathway a student can take to become a
@@ -722,8 +723,8 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="max-w-4xl mx-auto pl-4 lg:pl-0 pt-4">
-                <div className="max-w-3xl mt-4">
+              <div className="max-w-6xl 2xl:max-w-7xl mx-auto ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
+                <div className="max-w-4xl mt-4">
                   <p className="text-white lg:text-lg">
                     While the EV 101, the introductory course will serve as the
                     foundation, check the infographic below to understand what
@@ -732,7 +733,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="max-w-4xl mx-auto pl-4 lg:pl-0 mt-8">
+              <div className="max-w-6xl 2xl:max-w-7xl mx-auto ml-4 lg:ml-12 xl:ml-16 2xl:ml-36 mt-8">
                 <div className="flex space-x-2 lg:space-x-4">
                   <div className="block relative w-12 md:w-24 bg-gray-800 ">
                     <div className="flex items-center justify-center absolute z-0 inset-0 h-full">
@@ -974,12 +975,12 @@ export default function Home() {
             <div className="border-l border-gray-700 mx-4 xl:mx-0">
               <div className="pt-10 lg:pt-16">
                 <div className="heading-with-leftborder">
-                  <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-tight ml-4 lg:mx-auto">
+                  <h2 className="font-bold text-2xl lg:text-6xl leading-tight ml-4 lg:ml-12 xl:ml-16 2xl:ml-36 text-white">
                     Custom Designed DIY Hardware KIT.
                   </h2>
                 </div>
               </div>
-              <div className="max-w-4xl mx-auto pl-4 lg:pl-0 pb-16">
+              <div className="ml-4 lg:ml-12 xl:ml-16 2xl:ml-36 pb-16">
                 <div className="max-w-3xl space-y-6 text-white">
                   <p className="mt-4 text-sm lg:text-lg">
                     Stand a chance to get your hands on the exclusive
@@ -996,20 +997,20 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="grid grid-cols-2 gap-2 mt-8 text-sm text-center text-gray-500 italic">
-                  <div>
+                  <figure>
                     <img
                       src="/hardware-kit/SMD_PCB_top.png"
-                      alt="SMD PCB top"
+                      alt="Battery Management System - Top View"
                     />
-                    <p>PCB and Hardware KIT top</p>
-                  </div>
-                  <div>
+                    <figcaption>PCB and Hardware KIT top</figcaption>
+                  </figure>
+                  <figure>
                     <img
                       src="/hardware-kit/SMD_PCB_bottom.png"
                       alt="SMD PCB bottom"
                     />
-                    <p>PCB and Hardware KIT bottom</p>
-                  </div>
+                    <figcaption>PCB and Hardware KIT bottom</figcaption>
+                  </figure>
                 </div>
               </div>
             </div>
@@ -1019,14 +1020,14 @@ export default function Home() {
             <div className="border-l border-gray-700 mx-4 xl:mx-0">
               <div className="">
                 <div className="heading-with-leftborder">
-                  <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-tight ml-4 lg:mx-auto">
+                  <h2 className="font-bold text-2xl lg:text-6xl leading-tight ml-4 lg:ml-12 xl:ml-16 2xl:ml-36 text-white">
                     Teaching assistants <br />
                     for the course.
                   </h2>
                 </div>
               </div>
-              <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
-                <div className="max-w-3xl space-y-6 text-white">
+              <div className="max-w-4xl ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
+                <div className="space-y-6 text-white">
                   <p className="mt-4 text-sm md:text-base lg:text-lg">
                     Our students who have completed the EV courses as top
                     performers from our previous courses will be contributing to
@@ -1097,12 +1098,12 @@ export default function Home() {
             <div className="border-l border-gray-700 mx-4 xl:mx-0">
               <div className="pt-10 lg:pt-16">
                 <div className="heading-with-leftborder">
-                  <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-tight ml-4 lg:mx-auto">
+                  <h2 className="font-bold text-2xl lg:text-6xl leading-tight ml-4 lg:ml-12 xl:ml-16 2xl:ml-36 text-white">
                     Qualify as a Teaching Assistant.
                   </h2>
                 </div>
               </div>
-              <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
+              <div className="max-w-4xl ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
                 <div className="max-w-3xl space-y-6 text-white pb-16">
                   <p className="mt-4 text-sm md:text-base lg:text-lg">
                     If you are among the top performers in this course, you'll
@@ -1128,12 +1129,12 @@ export default function Home() {
             <div className="border-l border-gray-700 mx-4 xl:mx-0">
               <div className="pt-10 lg:pt-16">
                 <div className="heading-with-leftborder">
-                  <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-tight ml-4 lg:mx-auto">
+                  <h2 className="font-bold text-2xl lg:text-6xl leading-tight ml-4 lg:ml-12 xl:ml-16 2xl:ml-36 text-white">
                     Career Prospects for EV Engineers.
                   </h2>
                 </div>
               </div>
-              <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
+              <div className="max-w-4xl ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
                 <div className="max-w-3xl space-y-6 text-white">
                   <p className="mt-4 text-sm md:text-base lg:text-lg">
                     India has chalked a plan to aid its electric mobility
@@ -1168,12 +1169,12 @@ export default function Home() {
             <div className="border-l border-gray-700 mx-4 xl:mx-0">
               <div className="pt-10 lg:pt-16">
                 <div className="heading-with-leftborder">
-                  <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-tight ml-4 lg:mx-auto">
+                  <h2 className="font-bold text-2xl lg:text-6xl leading-tight ml-4 lg:ml-12 xl:ml-16 2xl:ml-36 text-white">
                     Career Pathway.
                   </h2>
                 </div>
               </div>
-              <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
+              <div className="max-w-4xl ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
                 <div className="max-w-3xl space-y-6 text-white">
                   <p className="mt-4 text-sm md:text-base lg:text-lg">
                     Approved by “All India Council for Technical Education” as
@@ -1231,12 +1232,23 @@ export default function Home() {
                   </li>
                   <li className="text-lg font-semibold text-secondary-500">
                     <p className="text-xl">Admission to EV 301 course</p>
+                    <p className="font-normal pt-1 text-white">
+                      EV 301 will be an advanced course on electric vehicle
+                      technology and it is currently under development.
+                    </p>
                   </li>
                   <li className="text-lg font-semibold text-secondary-500">
                     <p className="text-xl">Join a growing Alumni Network</p>
                     <p className="font-normal pt-1 text-white">
                       Graduating EV students can join the Pupilfirst Alumni
                       Network.
+                    </p>
+                  </li>
+                  <li className="text-lg font-semibold text-secondary-500">
+                    <p className="text-xl">Full-time opportunities</p>
+                    <p className="font-normal pt-1 text-white">
+                      Stand a chance to gain full-time opportunities in the EV
+                      Industry.
                     </p>
                   </li>
                   <li className="text-lg font-semibold text-secondary-500">
@@ -1260,12 +1272,12 @@ export default function Home() {
             <div className="border-l border-gray-700 mx-4 xl:mx-0">
               <div className="pt-10 lg:pt-16">
                 <div className="heading-with-leftborder">
-                  <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-tight ml-4 lg:mx-auto">
+                  <h2 className="font-bold text-2xl lg:text-6xl leading-tight ml-4 lg:ml-12 xl:ml-16 2xl:ml-36 text-white">
                     Schedule
                   </h2>
                 </div>
               </div>
-              <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
+              <div className="max-w-4xl ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
                 <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border border-gray-700 relative overflow-hidden divide-y divide-gray-700 mt-4">
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">
@@ -1323,12 +1335,12 @@ export default function Home() {
             <div className="border-l border-gray-700 mx-4 xl:mx-0">
               <div className="pt-10 lg:pt-16">
                 <div className="heading-with-leftborder">
-                  <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-tight ml-4 lg:mx-auto">
+                  <h2 className="font-bold text-2xl lg:text-6xl leading-tight ml-4 lg:ml-12 xl:ml-16 2xl:ml-36 text-white">
                     How to Apply?
                   </h2>
                 </div>
               </div>
-              <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
+              <div className="max-w-4xl ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
                 <div className="max-w-3xl space-y-6 text-white">
                   <p className="mt-4 text-sm md:text-base lg:text-lg">
                     Your admission to the courses as part of open electives will
@@ -1388,9 +1400,16 @@ export default function Home() {
                     Code of Conduct
                   </h4>
                   <p className="text-white pt-3">
-                    Students shall adhere to the Code of Conduct and provide
-                    only truthful information. Any discrepancies shall lead to
-                    withdrawal of scholarship and being dropped from the course.
+                    Students shall adhere to the{" "}
+                    <a
+                      className="text-blue-500 font-medium underline hover:text-blue-300"
+                      href="https://pages.pupilfirst.school/code-of-conduct/"
+                    >
+                      Code of Conduct
+                    </a>{" "}
+                    and provide only truthful information. Any discrepancies
+                    shall lead to withdrawal of scholarship and being dropped
+                    from the course.
                   </p>
                 </div>
                 <div className="pt-10 lg:pt-16">
@@ -1416,7 +1435,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="max-w-4xl mx-auto py-10 lg:pb-24 pl-4 xl:pl-0">
+              <div className="max-w-6xl mx-auto py-10 lg:pb-24 pl-4 xl:pl-0">
                 <div className="rounded-lg bg-gradient-to-r from-primary-500 to-secondary-400 border border-primary-400 p-6 lg:p-12">
                   <h4 className="text-xl lg:text-5xl font-extrabold text-center">
                     Apply Now
@@ -1425,9 +1444,9 @@ export default function Home() {
                     <a
                       className="block text-center px-10 font-semibold py-3 bg-gray-900 text-primary-400 border border-primary-400 rounded-md shadow-md hover:shadow-2xl hover:bg-primary-400 hover:text-gray-900 transition"
                       target="_blank"
-                      href="https://docs.google.com/forms/d/e/1FAIpQLSe_h7Cr0V50c6lgX-s6inoPfTWSNRAQeGQA1W7NDMkDlxTrrA/viewform"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSfNaUFi3-KRg6VYDgIDMdkxoWEl8OtdGqe_7GoSos9LijgItw/viewform"
                     >
-                      Register For Next Course
+                      Register for EV 101 Course
                     </a>
                   </div>
                 </div>
