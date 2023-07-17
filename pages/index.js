@@ -1477,16 +1477,19 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="pt-12">
+                <div className="mt-12 p-4 md:p-6 rounded-xl bg-gray-800 bg-opacity-25 border border-primary-400">
                   <h4 className="text-primary-400 text-xl lg:text-3xl font-bold">
                     Important
                   </h4>
                   <ul className="list-disc text-white space-y-4 mt-3 ml-4">
                     <li>
-                      Students can apply for the LITE EV Courses from July 25 -
-                      August 09, 2023. Applications will be closely scrutinized
-                      for selecting eligible students for taking the courses on
-                      a scholarship basis.
+                      Students can apply for the LITE EV Courses from{" "}
+                      <span className="font-bold">
+                        July 25 - August 09, 2023.
+                      </span>{" "}
+                      Applications will be closely scrutinized for selecting
+                      eligible students for taking the courses on a scholarship
+                      basis.
                     </li>
                     <li>
                       Students who are not keeping up with the course work
