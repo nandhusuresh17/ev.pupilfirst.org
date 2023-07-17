@@ -18,7 +18,7 @@ const facultyMembers = [
     imgSrc: "people/faculty-members/Gouthami_Eragamreddy.png",
     designation: "Assistant Professor",
     institute:
-      "G.Narayanamma Institute of Technology and Science For Women, Hyderabad",
+      "G. Narayanamma Institute of Technology and Science For Women, Hyderabad",
   },
   {
     name: "Dr. Swapnil Waman Khubalkar",
@@ -29,7 +29,7 @@ const facultyMembers = [
   {
     name: "Vrij Mohan Vidyarthi",
     imgSrc: "people/faculty-members/Vrij_Mohan_Vidyarthi.png",
-    designation: "Associate Professor & Head",
+    designation: "Assistant Professor",
     institute: "Tula's Institute, Dehradun",
   },
   {
@@ -41,19 +41,19 @@ const facultyMembers = [
   {
     name: "Ankit Damodar",
     imgSrc: "people/faculty-members/Ankit_Damodar.png",
-    designation: "Professor",
+    designation: "Assistant Professor",
     institute: "University of Engineering and Management, Jaipur",
   },
   {
     name: "Souvik Saha",
     imgSrc: "people/faculty-members/Souvik_Saha.png",
-    designation: "Head of the Department CSE",
+    designation: "Assistant Professor",
     institute: "University of Engineering and Management, Jaipur",
   },
   {
     name: "Vishal Kumar Pandey",
     imgSrc: "people/faculty-members/Vishal_Kumar_Pandey.png",
-    designation: "Assistant Professor",
+    designation: "Associate Professor",
     institute: "University of Engineering and Management, Jaipur",
   },
   {
@@ -71,7 +71,7 @@ const facultyMembers = [
   {
     name: "Dr. Prashant Ranjan",
     imgSrc: "people/faculty-members/Prashant_Ranjan.png",
-    designation: "Assistant Professor",
+    designation: "Associate Professor",
     institute: "University of Engineering and Management, Jaipur",
   },
   {

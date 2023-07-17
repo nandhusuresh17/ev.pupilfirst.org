@@ -14,7 +14,7 @@ function ImageWithDescription({ name, caption, role, imgSrc }) {
       </div>
       <p className={"text-lg font-semibold text-primary-400 pt-2"}>{name}</p>
       <p className={"text-sm text-gray-300 leading-tight pt-1"}>{caption}</p>
-      <p className="text-sm leading-snug text-white italic mt-3">{role}</p>
+      <p className="text-white mt-3">{role}</p>
     </div>
   );
 }
@@ -191,7 +191,7 @@ export default function Home() {
                   <div className="bg-gradient-to-br from-primary-400 to-secondary-500 p-0.5 rounded-xl">
                     <img
                       className="object-contain w-full h-full relative rounded-xl"
-                      src="micelio-studio/micelio-battery-lab-1.jpg"
+                      src="micelio-studio/micelio-CAM_Drum_Test_Bench.jpg"
                       alt="Introduction to Electric Vehicles (EV101)"
                     />
                   </div>
@@ -204,15 +204,20 @@ export default function Home() {
                   practical carbon reduction outcomes in day to day world
                   applications.
                 </p>
+                <img
+                  className="rounded-xl w-64 mx-auto"
+                  src="/logos/micelio-logo.jpg"
+                  alt="Micelio Mobility"
+                />
                 <p className="text-sm md:text-base lg:text-lg">
                   <a
                     href="https://www.miceliostudio.com/"
                     target="_blank"
-                    className="text-primary-400 font-semibold underline hover:text-primary-500"
+                    className="text-blue-500 font-semibold underline hover:text-primary-500"
                   >
                     Micelio Discovery Studio
                   </a>{" "}
-                  is a high performance team with the goal of enabling and
+                  is a high-performance team with the goal of enabling and
                   augmenting the growth and transformation of the electric
                   vehicle ecosystem.
                 </p>
@@ -242,7 +247,7 @@ export default function Home() {
                 <p className="text-sm md:text-base lg:text-lg">
                   Learn More at:{" "}
                   <a
-                    className="text-primary-400 font-semibold underline hover:text-primary-500"
+                    className="text-blue-500 font-semibold underline hover:text-primary-500"
                     target="_blank"
                     href="https://www.micelio.com"
                   >
@@ -376,7 +381,7 @@ export default function Home() {
                     <div className="heading-with-leftborder">
                       <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-snug lg:ml-28 2xl:ml-44">
                         Everything you
-                        <br /> need to know
+                        <br /> need to know.
                       </h2>
                     </div>
                   </div>
@@ -386,11 +391,11 @@ export default function Home() {
                         Engaging Hands-On Experience.
                       </h3>
                       <p className="pt-1 text-sm lg:text-lg text-white">
-                        You'll be working hands-on with our exclusive DIY
-                        hardware kit, which includes all the necessary
-                        components to build and experiment with your own EV
-                        Powertrain prototype. Get ready to see your designs come
-                        to life!
+                        You'll be working hands-on with our exclusive
+                        do-it-yourself (DIY) hardware kit, which includes all
+                        the necessary components to build and experiment with
+                        your own EV Powertrain prototype. Get ready to see your
+                        designs come to life!
                       </p>
                     </div>
                     <div>
@@ -398,15 +403,15 @@ export default function Home() {
                         Expert Guidance.
                       </h3>
                       <p className="pt-1 text-sm lg:text-lg text-white">
-                        Our team of vastly experienced EV engineers will guide
-                        you through this journey, offering valuable insights,
-                        practical tips, and feedback to ensure you grasp the
-                        concepts effectively. You'll learn from the best in the
-                        industry, gaining knowledge that will set you apart. You
-                        will also be able to take help from our course Teaching
-                        Assistants (TAs) who are students who completed our
-                        courses and working towards giving their knowledge back
-                        to the EV industry.
+                        Our team of vastly experienced EV professionals will
+                        guide you through this journey, offering valuable
+                        insights, practical tips, and feedback to ensure you
+                        grasp the concepts effectively. You'll learn from the
+                        best in the industry, gaining knowledge that will set
+                        you apart. You will also be able to take help from our
+                        course Teaching Assistants (TAs) who are students who
+                        completed our courses and working towards giving their
+                        knowledge back to the EV industry.
                       </p>
                     </div>
                     <div>
@@ -429,14 +434,15 @@ export default function Home() {
                         AICTE Approved Curriculum.
                       </h3>
                       <p className="pt-1 text-sm lg:text-lg text-white">
-                        Our meticulously crafted curriculum covers all the
-                        essential aspects of EV powertrains, from the
-                        fundamentals to advanced topics which has been prepared
-                        by practicing industry professionals. You'll explore the
-                        principles behind electric vehicle propulsion, battery
-                        management systems, motor control, and much more. By the
-                        end of both the EV courses, you'll have a solid
-                        foundation in electric vehicle technology.
+                        Our meticulously crafted curriculum covers the learning
+                        competencies to gain skills on all the essential aspects
+                        of EV powertrains, from the fundamentals to advanced
+                        topics, which has been prepared by practicing industry
+                        professionals. You'll explore the principles behind
+                        electric vehicle propulsion, battery management systems,
+                        motor control, and much more. By the end of both the EV
+                        courses, you'll have a solid foundation in electric
+                        vehicle technology.
                       </p>
                     </div>
                     <div>
@@ -445,7 +451,8 @@ export default function Home() {
                       </h3>
                       <p className="pt-1 text-sm lg:text-lg text-white">
                         Join a vibrant community of like-minded enthusiasts who
-                        share your passion for electric vehicles hosted on{" "}
+                        share your passion for electric vehicles, privately
+                        hosted by Pupilfirst on{" "}
                         <a
                           className="text-blue-500 underline hover:text-blue-600"
                           href="https://discord.com/"
@@ -498,7 +505,7 @@ export default function Home() {
                         <div className="text-xs md:text-sm mt-2 space-y-3">
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-primary-400">
-                              Jul 24, 2023
+                              Jul 25, 2023
                             </p>
                             <p className="col-span-5 text-gray-200">
                               - Application Open for LITE Open Elective.
@@ -568,7 +575,7 @@ export default function Home() {
               <div className="pt-10 lg:pt-20">
                 <div className="heading-with-leftborder">
                   <h2 className="font-bold text-2xl lg:text-6xl leading-tight ml-4 lg:ml-12 xl:ml-16 2xl:ml-36 text-white">
-                    Dynamic Curriculum by Industry Experts
+                    Dynamic Curriculum by Industry Experts.
                   </h2>
                 </div>
               </div>
@@ -576,7 +583,7 @@ export default function Home() {
                 <div className="text-white">
                   <p className="text-sm md:text-base lg:text-lg mt-4">
                     Learn the technology that fuels the vehicles of tomorrow by
-                    learning a curriculum designed by practicing Industry
+                    learning a curriculum designed by practicing EV Industry
                     professionals. This curriculum has also been approved by
                     AICTE as the national model curriculum for Open Electives in
                     Electric Vehicles.
@@ -594,10 +601,23 @@ export default function Home() {
                         </>
                       }
                       role={
-                        <>
-                          <strong>Course Author &amp; Full time coach</strong>{" "}
-                          Entrepreneur in the EV space and ecosystem leader.
-                        </>
+                        <div>
+                          <p>
+                            Swapnil is a Robotics engineer, with 6 years of
+                            experience in building multiple Autonomous robots of
+                            various architectures. He also has a passion for
+                            Motorsports which led him to work in multiple race
+                            teams, building high-performance ICE and electric
+                            four wheelers.
+                          </p>
+                          <p className="pt-3">
+                            He is currently working in Mankame Automotive as a
+                            design engineer building high-performance electric
+                            vehicle components, and also uses his experience to
+                            work as a consultant for other electric vehicle
+                            companies, helping them find technical solutions.
+                          </p>
+                        </div>
                       }
                       imgSrc="people/Swapnil-Mankame.png"
                     />
@@ -605,29 +625,34 @@ export default function Home() {
                       name="Kishor Kumar K"
                       caption={
                         <>
-                          Design & Development Engineer (Motor and Inverter),
-                          Garrett Advancing Motion (formerly Honeywell Turbo
+                          Leader - Electrical Design and Integration, Garrett
+                          Advancing Motion (formerly Honeywell Turbo
                           technologies), Bangalore
                         </>
                       }
                       role={
-                        <>
-                          Kishor is a design and development engineer, who is
-                          currently working with Garrett Advancing Motion on
-                          cutting edge technologies such as High Speed High
-                          Voltage Motor and inverters for electrification of 4
-                          Wheeler Passenger and Commercial vehicles. He has 10
-                          years of experience in the field of EV and
-                          electrification. In his previous assignment with SEG
-                          Automotive he developed traction motors for leading
-                          Indian 2Wheeler OEMs which involved development of
-                          motor from scratch to Series of production with a
-                          volume of 20,000 motors per month by following all the
-                          stages of product development. Apart from his work, he
-                          is also Co-founder of NPO called Athira Edutech
-                          Foundation through which he teaches STEM based
-                          education to Govt school higher primary students.
-                        </>
+                        <div>
+                          <p>
+                            Kishor Kumar K is an accomplished Team Lead at
+                            Garrett Advancing Motion, driving advancements in
+                            motor and controller development for electric
+                            vehicles. With 11 years of experience in the EV
+                            industry, he has excelled in both the low voltage 2
+                            & 3 wheeler segment and 4 wheeler segment.
+                            Previously, he made significant contributions at SEG
+                            Automotive, Simple Energy, and ATI Motors.
+                          </p>
+                          <p className="pt-3">
+                            Beyond his professional endeavors, Kishor is
+                            passionate about giving back to society and
+                            co-founded the "Athira Edutech Foundation," an NGO
+                            focused on providing STEM-based education to rural
+                            students. In his leisure time, he enjoys playing
+                            badminton, table tennis, and cricket, as well as
+                            engaging in trekking, hiking, and other adventurous
+                            activities.
+                          </p>
+                        </div>
                       }
                       imgSrc="people/Kishor_Kumar_K.png"
                     />
@@ -675,7 +700,7 @@ export default function Home() {
               <div className="pt-10 lg:pt-16">
                 <div className="heading-with-leftborder">
                   <h2 className="font-bold text-2xl lg:text-6xl leading-tight ml-4 lg:ml-12 xl:ml-16 2xl:ml-36 text-white">
-                    Beginner to advanced courses
+                    Beginner to advanced courses.
                   </h2>
                 </div>
               </div>
@@ -719,7 +744,8 @@ export default function Home() {
                 </div>
                 <p className="mt-4 text-white italic">
                   *EV 101 course is the prerequisite for the EV 201 - Design and
-                  Build Your Own EV Powertrain Course.
+                  Build Your Own EV Powertrain Course. You will be starting with
+                  the EV 101 course.
                 </p>
               </div>
 
@@ -904,9 +930,6 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="relative hidden md:flex w-24 flex-col items-center justify-between">
-                    <p className="text-xs font-medium text-white">
-                      Not eligible for jobs in the domain
-                    </p>
                     <p className="flex text-xs text-gray-200 pt-2 items-center justify-center">
                       The competency based curriculum enables learners to pick
                       up competencies for industry skills
@@ -941,35 +964,205 @@ export default function Home() {
                       <polyline points="6 9 12 15 18 9"></polyline>
                     </svg>
                     <p className="text-xs font-medium text-white">
-                      Industry grade <br />
-                      salary
+                      EV industry gateway.
                     </p>
                   </div>
                 </div>
+                <section className="mt-12">
+                  <div className="relative">
+                    <p className="pt-4 md:text-lg text-white max-w-3xl">
+                      <span className="font-semibold md:text-primary-400">
+                        Watch the video below
+                      </span>{" "}
+                      <span className="font-semibold">
+                        to see what you will be learning in the intermediate
+                        level course EV 201 - Design and Build Your Own EV
+                        Powertrain.
+                      </span>
+                    </p>
+                    <div className="hidden md:block h-6 w-6 absolute top-8 transform rotate-12 -left-6 z-10">
+                      <svg
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                        x="0px"
+                        y="0px"
+                        viewBox="0 0 43.1 85.9"
+                        xmlSpace="preserve"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="st0 draw-arrow__svg-path"
+                          d="M11.3,2.5c-5.8,5-8.7,12.7-9,20.3s2,15.1,5.3,22c6.7,14,18,25.8,31.7,33.1"
+                        />
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="draw-arrow__svg-path"
+                          d="M40.6,78.1C39,71.3,37.2,64.6,35.2,58"
+                        />
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          className="draw-arrow__svg-path"
+                          d="M39.8,78.5c-7.2,1.7-14.3,3.3-21.5,4.9"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="mt-2 shadow-2xl rounded-xl">
+                    <div
+                      style={{ padding: "56.25% 0 0 0", position: "relative" }}
+                    >
+                      <iframe
+                        className="rounded-xl"
+                        src="https://player.vimeo.com/video/822777339?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                        frameBorder="0"
+                        allow="autoplay; fullscreen; picture-in-picture"
+                        allowFullScreen
+                        style={{
+                          position: "absolute",
+                          top: 0,
+                          left: 0,
+                          width: "100%",
+                          height: "100%",
+                        }}
+                        title="Intro To EV201"
+                      ></iframe>
+                    </div>
+                  </div>
+                </section>
                 <div className="mt-8 lg:mt-12 text-white">
                   <h4 className="bg-primary-400 inline-block px-2 text-gray-900">
                     Important points:
                   </h4>
                   <ul className="list-disc ml-4 space-y-4 text-lg">
                     <li className="mt-3">
-                      The EV 101 course has no hardware dependency apart from a
-                      PC to access the course content and perform mathematical
-                      simulations as part of the course.
+                      The EV 101 course has{" "}
+                      <span className="font-bold">no hardware dependency</span>{" "}
+                      apart from a PC to access the course content and perform
+                      mathematical simulations as part of the course.
                     </li>
                     <li>
-                      EV 201 course required a custom designed Do-it-yourself
+                      EV 201 course requires a custom designed Do-it-yourself
                       (DIY) KIT to complete the course.{" "}
                     </li>
                     <li>
                       EV 101 is a prerequisite for the EV 201 course, and hence
                       students who complete EV 101 will only be onboarded to the
-                      next level of the course.
+                      next level of the course. And the DIY kit will be provided
+                      to the students who are in EV 201.
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
+          <section>
+            <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
+              <div className="border-l border-gray-700 mx-4 xl:mx-0">
+                <div className="pt-10 lg:pt-16">
+                  <div className="heading-with-leftborder">
+                    <h2 className="font-bold text-2xl lg:text-6xl leading-tight ml-4 lg:ml-12 xl:ml-16 2xl:ml-36 text-white">
+                      Career Pathway.
+                    </h2>
+                  </div>
+                </div>
+                <div className="max-w-4xl ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
+                  <div className="max-w-3xl space-y-6 text-white">
+                    <p className="mt-4 text-sm md:text-base lg:text-lg">
+                      Approved by “All India Council for Technical Education” as
+                      National Model Curriculum for Indian Universities.
+                    </p>
+                  </div>
+                  <div>
+                    <img src="/course-path/ev-career-pathway.webp" />
+                  </div>
+                  <ul className="list-decimal space-y-6 pt-4 ml-8">
+                    <li className="text-lg font-semibold text-secondary-500">
+                      <p className="text-xl">Learn Electric Vehicles 101</p>
+                      <p className="font-normal pt-1 text-white">
+                        Duration: 20 hours/2 Academic Credits.
+                      </p>
+                      <p className="font-normal text-white">
+                        Learn to mathematically model your own two-wheeler EV
+                        Conversion.
+                      </p>
+                    </li>
+                    <li className="text-lg font-semibold text-secondary-500">
+                      <p className="text-xl">
+                        Admission to Electric Vehicles 201
+                      </p>
+                      <p className="font-normal pt-1 text-white">
+                        Duration: 80 hours/5 Academic Credits
+                      </p>
+                      <p className="font-normal text-white">
+                        Learn to design and build your own working EV Powertrain
+                        model.
+                      </p>
+                    </li>
+                    <li className="text-lg font-semibold text-secondary-500">
+                      <p className="text-xl">
+                        Gain Internships/placements through EV Hiring Network
+                      </p>
+                      <p className="font-normal pt-1 text-white">
+                        An increasing list of companies are participating to
+                        onboard EV engineer interns as you finish your courses.
+                      </p>
+                      <p className="font-normal text-white">
+                        Learn to design and build your own working EV Powertrain
+                        model.
+                      </p>
+                      <p className="py-4 text-gray-500 italic">OR</p>
+                      <div className="text-lg font-semibold text-secondary-500">
+                        <p className="text-xl">Become a Teaching Assistant</p>
+                        <p className="font-normal pt-1 text-white">
+                          Learners who complete EV 201 shall be onboarded as
+                          teaching assistants to pass on their knowledge to
+                          other students and receive a stipend & certificate.
+                          Credits can also be gained as part of the EV TA 101
+                          course.
+                        </p>
+                      </div>
+                    </li>
+                    <li className="text-lg font-semibold text-secondary-500">
+                      <p className="text-xl">Admission to EV 301 course</p>
+                      <p className="font-normal pt-1 text-white">
+                        EV 301 will be an advanced course on electric vehicle
+                        technology and it is currently under development.
+                      </p>
+                    </li>
+                    <li className="text-lg font-semibold text-secondary-500">
+                      <p className="text-xl">Join a growing Alumni Network</p>
+                      <p className="font-normal pt-1 text-white">
+                        Graduating EV students can join the Pupilfirst Alumni
+                        Network.
+                      </p>
+                    </li>
+                    <li className="text-lg font-semibold text-secondary-500">
+                      <p className="text-xl">Full-time opportunities</p>
+                      <p className="font-normal pt-1 text-white">
+                        Stand a chance to gain full-time opportunities in the EV
+                        Industry.
+                      </p>
+                    </li>
+                    <li className="text-lg font-semibold text-secondary-500">
+                      <p className="text-xl">
+                        Contribute as an Industry Teaching Fellow
+                      </p>
+                      <p className="font-normal pt-1 text-white">
+                        Students who take our courses, get placed in the
+                        industry will be extended an opportunity to contribute
+                        to the EV Courses by becoming an Industry Teaching
+                        Fellow.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
 
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-700 mx-4 xl:mx-0">
@@ -996,21 +1189,31 @@ export default function Home() {
                     communication in EVs.
                   </p>
                 </div>
-                <div className="grid grid-cols-2 gap-2 mt-8 text-sm text-center text-gray-500 italic">
-                  <figure>
-                    <img
-                      src="/hardware-kit/SMD_PCB_top.png"
-                      alt="Battery Management System - Top View"
-                    />
-                    <figcaption>PCB and Hardware KIT top</figcaption>
-                  </figure>
-                  <figure>
-                    <img
-                      src="/hardware-kit/SMD_PCB_bottom.png"
-                      alt="SMD PCB bottom"
-                    />
-                    <figcaption>PCB and Hardware KIT bottom</figcaption>
-                  </figure>
+                <div className="border border-gray-800 bg-gray-800 bg-opacity-25 rounded-xl mt-4 p-4 shadow">
+                  <p className="text-center pt-4 text-white font-semibold">
+                    Battery Management System (BMS) module designed by
+                    Pupilfirst.
+                  </p>
+                  <div className="grid grid-cols-2 gap-2 mt-8 text-sm text-center text-gray-500 italic">
+                    <figure>
+                      <img
+                        src="/hardware-kit/SMD_PCB_top.png"
+                        alt="Battery Management System - Top View"
+                      />
+                      <figcaption>
+                        Battery Management System - Top View.
+                      </figcaption>
+                    </figure>
+                    <figure>
+                      <img
+                        src="/hardware-kit/SMD_PCB_bottom.png"
+                        alt="Battery Management System - Bottom View"
+                      />
+                      <figcaption>
+                        Battery Management System - Bottom View.
+                      </figcaption>
+                    </figure>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1030,10 +1233,10 @@ export default function Home() {
                 <div className="space-y-6 text-white">
                   <p className="mt-4 text-sm md:text-base lg:text-lg">
                     Our students who have completed the EV courses as top
-                    performers from our previous courses will be contributing to
-                    upcoming batches by sharing their knowledge and experience.
-                    Student TAs, along with industry coaches, can answer any
-                    doubts, no matter how silly or complex.
+                    performers from our previous implementations will be
+                    contributing to upcoming batches by sharing their knowledge
+                    and experience. Student TAs, along with industry coaches,
+                    can answer any doubts, no matter how silly or complex.
                   </p>
                 </div>
                 <div className="pt-6">
@@ -1144,7 +1347,7 @@ export default function Home() {
                   <p className="mt-4 text-sm md:text-base lg:text-lg">
                     The government has initiated the{" "}
                     <a
-                      className="text-blue-400 underline"
+                      className="text-blue-500 underline"
                       target="_blank"
                       href="https://pib.gov.in/newsite/printrelease.aspx?relid=116719#:~:text=Government%20of%20India%20launched%20the,on%20year%20from%202020%20onwards."
                     >
@@ -1170,109 +1373,6 @@ export default function Home() {
               <div className="pt-10 lg:pt-16">
                 <div className="heading-with-leftborder">
                   <h2 className="font-bold text-2xl lg:text-6xl leading-tight ml-4 lg:ml-12 xl:ml-16 2xl:ml-36 text-white">
-                    Career Pathway.
-                  </h2>
-                </div>
-              </div>
-              <div className="max-w-4xl ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
-                <div className="max-w-3xl space-y-6 text-white">
-                  <p className="mt-4 text-sm md:text-base lg:text-lg">
-                    Approved by “All India Council for Technical Education” as
-                    National Model Curriculum for Indian Universities.
-                  </p>
-                </div>
-                <div>
-                  <img src="/course-path/ev-career-pathway.webp" />
-                </div>
-                <ul className="list-decimal space-y-6 pt-4 ml-8">
-                  <li className="text-lg font-semibold text-secondary-500">
-                    <p className="text-xl">Learn Electric Vehicles 101</p>
-                    <p className="font-normal pt-1 text-white">
-                      Duration: 20 hours/2 Academic Credits.
-                    </p>
-                    <p className="font-normal text-white">
-                      Learn to mathematically model your own two-wheeler EV
-                      Conversion.
-                    </p>
-                  </li>
-                  <li className="text-lg font-semibold text-secondary-500">
-                    <p className="text-xl">
-                      Admission to Electric Vehicles 201
-                    </p>
-                    <p className="font-normal pt-1 text-white">
-                      Duration: 80 hours/5 Academic Credits
-                    </p>
-                    <p className="font-normal text-white">
-                      Learn to design and build your own working EV Powertrain
-                      model.
-                    </p>
-                  </li>
-                  <li className="text-lg font-semibold text-secondary-500">
-                    <p className="text-xl">
-                      Gain Internships/placements through EV Hiring Network
-                    </p>
-                    <p className="font-normal pt-1 text-white">
-                      An increasing list of companies are participating to
-                      onboard EV engineer interns as you finish your courses.
-                    </p>
-                    <p className="font-normal text-white">
-                      Learn to design and build your own working EV Powertrain
-                      model.
-                    </p>
-                    <p className="py-4 text-gray-500 italic">OR</p>
-                    <div className="text-lg font-semibold text-secondary-500">
-                      <p className="text-xl">Become a Teaching Assistant</p>
-                      <p className="font-normal pt-1 text-white">
-                        Learners who complete EV 201 shall be onboarded as
-                        teaching assistants to pass on their knowledge to other
-                        students and receive a stipend & certificate. Credits
-                        can also be gained as part of the EV TA 101 course.
-                      </p>
-                    </div>
-                  </li>
-                  <li className="text-lg font-semibold text-secondary-500">
-                    <p className="text-xl">Admission to EV 301 course</p>
-                    <p className="font-normal pt-1 text-white">
-                      EV 301 will be an advanced course on electric vehicle
-                      technology and it is currently under development.
-                    </p>
-                  </li>
-                  <li className="text-lg font-semibold text-secondary-500">
-                    <p className="text-xl">Join a growing Alumni Network</p>
-                    <p className="font-normal pt-1 text-white">
-                      Graduating EV students can join the Pupilfirst Alumni
-                      Network.
-                    </p>
-                  </li>
-                  <li className="text-lg font-semibold text-secondary-500">
-                    <p className="text-xl">Full-time opportunities</p>
-                    <p className="font-normal pt-1 text-white">
-                      Stand a chance to gain full-time opportunities in the EV
-                      Industry.
-                    </p>
-                  </li>
-                  <li className="text-lg font-semibold text-secondary-500">
-                    <p className="text-xl">
-                      Contribute as an Industry Teaching Fellow
-                    </p>
-                    <p className="font-normal pt-1 text-white">
-                      Students who take our courses, get placed in the industry
-                      will be extended an opportunity to contribute to the EV
-                      Courses by becoming an Industry Teaching Fellow.
-                    </p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section>
-          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
-            <div className="border-l border-gray-700 mx-4 xl:mx-0">
-              <div className="pt-10 lg:pt-16">
-                <div className="heading-with-leftborder">
-                  <h2 className="font-bold text-2xl lg:text-6xl leading-tight ml-4 lg:ml-12 xl:ml-16 2xl:ml-36 text-white">
                     Schedule
                   </h2>
                 </div>
@@ -1281,7 +1381,7 @@ export default function Home() {
                 <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border border-gray-700 relative overflow-hidden divide-y divide-gray-700 mt-4">
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">
-                      July 24, 2023
+                      July 25, 2023
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">
                       - Application Open for LITE Open Elective.
@@ -1383,8 +1483,8 @@ export default function Home() {
                   </h4>
                   <ul className="list-disc text-white space-y-4 mt-3 ml-4">
                     <li>
-                      Students can apply for the LITE EV Courses from July 17 -
-                      July 24, 2023. Applications will be closely scrutinized
+                      Students can apply for the LITE EV Courses from July 25 -
+                      August 09, 2023. Applications will be closely scrutinized
                       for selecting eligible students for taking the courses on
                       a scholarship basis.
                     </li>
@@ -1403,6 +1503,7 @@ export default function Home() {
                     Students shall adhere to the{" "}
                     <a
                       className="text-blue-500 font-medium underline hover:text-blue-300"
+                      target="_blank"
                       href="https://pages.pupilfirst.school/code-of-conduct/"
                     >
                       Code of Conduct
@@ -1417,7 +1518,14 @@ export default function Home() {
                     Questions?
                   </p>
                   <p className="text-white pt-3">
-                    Please refer to the Frequently Asked Questions (FAQ)
+                    Please refer to the{" "}
+                    <a
+                      className="text-blue-500 font-medium underline hover:text-blue-300"
+                      target="_blank"
+                      href="https://docs.google.com/document/d/e/2PACX-1vTJ9YP4STdXiGMeFokNtO6r9HIeLI7cJOY5YYhOQcJfQxCPVH9HgtQjlojM6-5_oR_Y7OE693OMc9y2/pub"
+                    >
+                      Frequently Asked Questions (FAQ)
+                    </a>{" "}
                     document, as you will find the answers to the questions most
                     commonly asked by students. If you still need help, please
                     get in touch with your faculty, who shall reach out to us.
@@ -1427,7 +1535,7 @@ export default function Home() {
                     <a
                       href="mailto:ev@pupilfirst.org"
                       className={
-                        "text-primary-400 underline pl-2 tracking-wide font-medium"
+                        "text-blue-500 underline pl-2 tracking-wide font-medium"
                       }
                     >
                       ev@pupilfirst.org
