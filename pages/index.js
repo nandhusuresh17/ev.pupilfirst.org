@@ -8,7 +8,7 @@ function ImageWithDescription({ name, caption, role, imgSrc }) {
       <div className="rounded-2xl overflow-hidden w-5/6 md:w-auto ">
         <img
           src={imgSrc}
-          alt={caption}
+          alt={`Photo of ${name}`}
           className="block w-full object-cover md:object-contain"
         />
       </div>
@@ -119,10 +119,16 @@ export default function Home() {
                 </p>
                 <p className="mt-4">
                   Admissions are now open for the LITE Electric Vehicles Courses
-                  by Pupilfirst in association with Micelio Mobility. Up to Top
-                  100 students who qualify for the program get a 100%
-                  scholarship for taking the EV Courses, unleash your potential
-                  and be at the forefront of the electric vehicle revolution!
+                  as part of the EV02Y23<sup>*</sup> cohort by Pupilfirst in
+                  association with Micelio Mobility. Up to Top 100 students who
+                  qualify for the program get a 100% scholarship for taking the
+                  EV Courses, unleash your potential and be at the forefront of
+                  the electric vehicle revolution!
+                </p>
+                <p className="text-sm italic text-gray-400">
+                  *EV02Y23 - The first two letters indicate the curriculum (WD,
+                  EV etc.), followed by the cohort number (10, 11,...) and the
+                  year of admission (23, 24,…).
                 </p>
               </div>
 
@@ -136,7 +142,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="md:5/12 hero__image-container flex z-0 pt-12 lg:pt-16">
+            <div className="flex h-full items-center justify-center hero__image-container z-0 pt-12 lg:pt-16">
               <img
                 className="object-contain w-full h-full relative"
                 src="hero/ev-open-program-hero-image.png"
@@ -163,7 +169,7 @@ export default function Home() {
                   <img
                     className="object-contain w-full h-full relative rounded-xl"
                     src="micelio-studio/micelio-studio-1.jpg"
-                    alt="Introduction to Electric Vehicles (EV101)"
+                    alt="Photo of Micelio Studio"
                   />
                 </div>
                 <div className="grid md:grid-cols-2 gap-4">
@@ -171,28 +177,28 @@ export default function Home() {
                     <img
                       className="object-contain w-full h-full relative rounded-xl"
                       src="micelio-studio/micelio-studio-2.jpg"
-                      alt="Introduction to Electric Vehicles (EV101)"
+                      alt="Photo of Micelio Studio"
                     />
                   </div>
                   <div className="bg-gradient-to-br from-primary-400 to-secondary-500 p-0.5 rounded-xl">
                     <img
                       className="object-contain w-full h-full relative rounded-xl"
                       src="micelio-studio/micelio-studio-3.jpg"
-                      alt="Introduction to Electric Vehicles (EV101)"
+                      alt="Photo of Micelio Studio"
                     />
                   </div>
                   <div className="bg-gradient-to-br from-primary-400 to-secondary-500 p-0.5 rounded-xl">
                     <img
                       className="object-contain w-full h-full relative rounded-xl"
                       src="micelio-studio/micelio-studio-4.jpg"
-                      alt="Introduction to Electric Vehicles (EV101)"
+                      alt="Photo of Micelio Studio"
                     />
                   </div>
                   <div className="bg-gradient-to-br from-primary-400 to-secondary-500 p-0.5 rounded-xl">
                     <img
                       className="object-contain w-full h-full relative rounded-xl"
                       src="micelio-studio/micelio-CAM_Drum_Test_Bench.jpg"
-                      alt="Introduction to Electric Vehicles (EV101)"
+                      alt="Photo of Micelio Studio"
                     />
                   </div>
                 </div>
@@ -207,7 +213,7 @@ export default function Home() {
                 <img
                   className="rounded-xl w-64 mx-auto"
                   src="/logos/micelio-logo.jpg"
-                  alt="Micelio Mobility"
+                  alt="Logo of Micelio Mobility"
                 />
                 <p className="text-sm md:text-base lg:text-lg">
                   <a
@@ -266,7 +272,7 @@ export default function Home() {
                   <img
                     className="ml-0 md:-ml-16 w-32 h-32 lg:w-48 lg:h-48 rounded-full object-contain border-8 border-gray-800 bg-gray-700"
                     src="/people/Sathiyaseelan.jpg"
-                    alt="Sathiyaseelan Sekar"
+                    alt="Photo of Sathiyaseelan Sekar"
                   />
 
                   <div className="flex gap-4 items-start">
@@ -309,7 +315,7 @@ export default function Home() {
                   <img
                     className="ml-0 md:-ml-16 w-32 h-32 lg:w-48 lg:h-48 rounded-full object-contain border-8 border-gray-800 bg-gray-700"
                     src="/people/S_Soundararajan.png"
-                    alt="S Soundararajan"
+                    alt="Photo of S. Soundararajan"
                   />
 
                   <div className="flex gap-4 items-start">
@@ -1077,7 +1083,10 @@ export default function Home() {
                     </p>
                   </div>
                   <div>
-                    <img src="/course-path/ev-career-pathway.webp" />
+                    <img
+                      src="/course-path/ev-career-pathway.webp"
+                      alt="Career Pathway Diagram"
+                    />
                   </div>
                   <ul className="list-decimal space-y-6 pt-4 ml-8">
                     <li className="text-lg font-semibold text-secondary-500">
@@ -1245,8 +1254,8 @@ export default function Home() {
                       <div className="w-full md:w-32 h-48 md:h-full">
                         <img
                           className="object-cover w-full h-full rounded-t-lg md:rounded-tr-none md:rounded-l-lg flex-shrink-0"
-                          src="people/teaching-assistants/Chetan_Shivprakash_Agroya.png"
-                          alt=""
+                          src="people/teaching-assistants/Chetan_Shivprakash_Agroya.jpg"
+                          alt="Photo of Chetan Shivprakash Agroya"
                         />
                       </div>
                       <div className="flex flex-col flex-1 justify-between text-sm">
@@ -1270,8 +1279,8 @@ export default function Home() {
                       <div className="w-full md:w-32 h-48 md:h-full">
                         <img
                           className="object-cover w-full h-full rounded-t-lg md:rounded-tr-none md:rounded-l-lg flex-shrink-0"
-                          src="people/teaching-assistants/Gurudayal_Singh_Dalawat.png"
-                          alt=""
+                          src="people/teaching-assistants/Gurudayal_Singh_Dalawat.jpg"
+                          alt="Photo of Gurudayal Singh Dalawat"
                         />
                       </div>
                       <div className="flex flex-col flex-1 justify-between text-sm">

@@ -72,6 +72,8 @@ h4 {
 		height: auto;
 		width: calc(50% + 100px);
 		right: -100px;
+		top: 50%;
+		transform: translateY(-50%);
 	}
 }
 @screen 2xl {

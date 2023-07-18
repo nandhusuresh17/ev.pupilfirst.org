@@ -6,7 +6,7 @@ export default function Testimonial({ name, batch, testimony, imageSrc }) {
       <img
         className="ml-0 md:-ml-16 w-32 h-32 rounded-full object-contain border-8 border-gray-800 bg-gray-700"
         src={imageSrc}
-        alt={"Photo of" + name}
+        alt={"Photo of " + name}
       />
 
       <div className="flex gap-4 items-start">
