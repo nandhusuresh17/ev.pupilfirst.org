@@ -511,7 +511,7 @@ export default function Home() {
                         <div className="text-xs md:text-sm mt-2 space-y-3">
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-primary-400">
-                              Jul 25, 2023
+                              Jul 27, 2023
                             </p>
                             <p className="col-span-5 text-gray-200">
                               - Application Open for LITE Open Elective.
@@ -527,7 +527,7 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-primary-400">
-                              Aug 14, 2023
+                              Aug 16, 2023
                             </p>
                             <p className="col-span-5 text-gray-200">
                               - Announcement of selected students.
@@ -535,7 +535,7 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-primary-400">
-                              Aug 17, 2023
+                              Aug 22, 2023
                             </p>
                             <p className="col-span-5 text-gray-200">
                               - Course commencement for EV 101.
@@ -543,7 +543,7 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-primary-400">
-                              Sep 21, 2023
+                              October 27, 2023
                             </p>
                             <p className="col-span-5 text-gray-200">
                               - Course conclusion.
@@ -1185,9 +1185,10 @@ export default function Home() {
               <div className="ml-4 lg:ml-12 xl:ml-16 2xl:ml-36 pb-16">
                 <div className="max-w-3xl space-y-6 text-white">
                   <p className="mt-4 text-sm lg:text-lg">
-                    Stand a chance to get your hands on the exclusive
-                    Arduino-based custom designed DIY hardware kit to see your
-                    designs come to life. Students who complete the EV 101
+                    Stand a chance to get your hands on an exclusive
+                    Arduino-based battery management system simulator. It is a powerful KIT that lets you design your own Python algorithm for charging,  
+                    discharging and balancing individual cells. You can use this in any battery-powered application and make it run on your special BMS algorithm.
+                    Students who complete the EV 101
                     course and get onboarded to EV 201, will be receiving the
                     DIY KIT free of charge.
                   </p>
@@ -1390,7 +1391,7 @@ export default function Home() {
                 <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border border-gray-700 relative overflow-hidden divide-y divide-gray-700 mt-4">
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">
-                      July 25, 2023
+                      July 27, 2023
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">
                       - Application Open for LITE Open Elective.
@@ -1406,7 +1407,7 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-basetext-sm lg:text-base text-primary-400 lg:text-right">
-                      August 14, 2023
+                      August 16, 2023
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">
                       - Announcement of selected students.
@@ -1414,7 +1415,7 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">
-                      August 17, 2023
+                      August 22, 2023
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">
                       - Course commencement for EV 101.
@@ -1422,7 +1423,7 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">
-                      September 21, 2023
+                      October 27, 2023
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">
                       - Course conclusion.
@@ -1494,7 +1495,7 @@ export default function Home() {
                     <li>
                       Students can apply for the LITE EV Courses from{" "}
                       <span className="font-bold">
-                        July 25 - August 09, 2023.
+                        July 27 - August 09, 2023.
                       </span>{" "}
                       Applications will be closely scrutinized for selecting
                       eligible students for taking the courses on a scholarship
