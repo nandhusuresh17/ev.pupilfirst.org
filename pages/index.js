@@ -527,7 +527,7 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-primary-400">
-                              Aug 14, 2023
+                              Aug 16, 2023
                             </p>
                             <p className="col-span-5 text-gray-200">
                               - Announcement of selected students.
@@ -535,7 +535,7 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-primary-400">
-                              Aug 17, 2023
+                              Aug 22, 2023
                             </p>
                             <p className="col-span-5 text-gray-200">
                               - Course commencement for EV 101.
@@ -543,7 +543,7 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-primary-400">
-                              Sep 21, 2023
+                              Oct 27, 2023
                             </p>
                             <p className="col-span-5 text-gray-200">
                               - Course conclusion.
@@ -1406,7 +1406,7 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-basetext-sm lg:text-base text-primary-400 lg:text-right">
-                      August 14, 2023
+                      August 16, 2023
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">
                       - Announcement of selected students.
@@ -1414,7 +1414,7 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">
-                      August 17, 2023
+                      August 22, 2023
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">
                       - Course commencement for EV 101.
@@ -1422,7 +1422,7 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">
-                      September 21, 2023
+                      October 27, 2023
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">
                       - Course conclusion.
