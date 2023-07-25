@@ -543,7 +543,7 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-primary-400">
-                              October 27, 2023
+                              Oct 27, 2023
                             </p>
                             <p className="col-span-5 text-gray-200">
                               - Course conclusion.
@@ -1186,11 +1186,13 @@ export default function Home() {
                 <div className="max-w-3xl space-y-6 text-white">
                   <p className="mt-4 text-sm lg:text-lg">
                     Stand a chance to get your hands on an exclusive
-                    Arduino-based battery management system simulator. It is a powerful KIT that lets you design your own Python algorithm for charging,  
-                    discharging and balancing individual cells. You can use this in any battery-powered application and make it run on your special BMS algorithm.
-                    Students who complete the EV 101
-                    course and get onboarded to EV 201, will be receiving the
-                    DIY KIT free of charge.
+                    Arduino-based battery management system simulator. It is a
+                    powerful KIT that lets you design your own Python algorithm
+                    for charging, discharging and balancing individual cells.
+                    You can use this in any battery-powered application and make
+                    it run on your special BMS algorithm. Students who complete
+                    the EV 101 course and get onboarded to EV 201, will be
+                    receiving the DIY KIT free of charge.
                   </p>
                   <p className="text-sm md:text-base lg:text-lg">
                     The KIT helps students to learn hands-on regarding various
