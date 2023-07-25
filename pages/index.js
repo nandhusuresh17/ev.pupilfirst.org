@@ -205,10 +205,11 @@ export default function Home() {
               </div>
               <div className="lg:w-1/2 text-white text-lg space-y-4">
                 <p className="text-sm md:text-base lg:text-lg">
-                  The ikigai of Micelio Mobility is to enable an ecosystem that
-                  will allow clean mobility start-ups to thrive and deliver
-                  practical carbon reduction outcomes in day to day world
-                  applications.
+                  Micelio Mobility has been at the forefront of strengthening
+                  the future of clean mobility by building a robust ecosystem in
+                  India to enable the mass adoption of clean mobility solutions
+                  and remove specific entry-level barriers that startups may
+                  face while navigating this landscape.
                 </p>
                 <img
                   className="rounded-xl w-64 mx-auto"
@@ -216,39 +217,27 @@ export default function Home() {
                   alt="Logo of Micelio Mobility"
                 />
                 <p className="text-sm md:text-base lg:text-lg">
-                  <a
-                    href="https://www.miceliostudio.com/"
-                    target="_blank"
-                    className="text-blue-500 font-semibold underline hover:text-primary-500"
-                  >
-                    Micelio Discovery Studio
-                  </a>{" "}
-                  is a high-performance team with the goal of enabling and
-                  augmenting the growth and transformation of the electric
-                  vehicle ecosystem.
+                  As a first-of-its-kind catalyst in the clean mobility value
+                  curve, with an aim to create and build an ecosystem that can
+                  nurture innovation and maximize impact, Micelio is on its way
+                  to powering a comprehensive platform to aid in India's
+                  transition to a cleaner future for mobility. Micelio's
+                  initiatives include capital funding through Micelio Fund,
+                  testing facilities through Micelio Discovery Studio, ecosystem
+                  development through Micelio Community, and knowledge sharing
+                  and policy advocacy as part of Micelio Knowledge.
                 </p>
                 <p className="text-sm md:text-base lg:text-lg">
-                  We are developing and running a community of 1100+ EV
-                  start-ups, OEMs, Vehicle manufacturers, Fleets, and E-commerce
-                  companies operating EVs. Micelio Studio also provides
-                  assistance in market connection and supply chain support. We
-                  are one stop solution providers for EV space.
+                  Micelio Discovery Studio is a high-performance team with the
+                  goal of enabling and augmenting the growth and transformation
+                  of the clean mobility ecosystem.
                 </p>
                 <p className="text-sm md:text-base lg:text-lg">
-                  Micelio Discovery Studio has invested in critical, EV specific
-                  machinery and industrial space you can benefit from
-                  extensively at a very nominal amount. High-value equipment
-                  with precision provides you with better test results and
-                  support. We are also running open-source documentation and
-                  projects to assist in the overall growth of EV technology in
-                  the industry.
-                </p>
-                <p className="text-sm md:text-base lg:text-lg">
-                  Wonders happen when communities come together. Micelio
-                  Discovery Studio aims to bring together and nurture all those
-                  communities who share our vision of electrifying mobility and
-                  propelling the entire electric mobility ecosystem towards a
-                  more sustainable future.
+                  Micelio Discovery Studio has invested in critical EV-specific
+                  machinery and industrial space to test components &
+                  sub-systems, that companies can utilize at a very nominal
+                  price. High-value equipment with precision provides you with
+                  better test results and support.
                 </p>
                 <p className="text-sm md:text-base lg:text-lg">
                   Learn More at:{" "}
