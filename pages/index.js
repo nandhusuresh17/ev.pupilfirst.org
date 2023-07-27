@@ -1172,7 +1172,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="ml-4 lg:ml-12 xl:ml-16 2xl:ml-36 pb-16">
-                <div className="max-w-3xl space-y-6 text-white">
+                <div className="max-w-5xl space-y-6 text-white">
                   <p className="mt-4 text-sm lg:text-lg">
                     Stand a chance to get your hands on an exclusive
                     Arduino-based battery management system simulator. It is a
@@ -1195,7 +1195,7 @@ export default function Home() {
                     Battery Management System (BMS) module designed by
                     Pupilfirst.
                   </p>
-                  <div className="grid grid-cols-2 gap-2 mt-8 text-sm text-center text-gray-500 italic">
+                  <div className="grid grid-cols-2 gap-2 mt-8 text-sm text-center text-gray-500 italic pb-12">
                     <figure>
                       <img
                         src="/hardware-kit/SMD_PCB_top.png"
@@ -1215,6 +1215,15 @@ export default function Home() {
                       </figcaption>
                     </figure>
                   </div>
+                  <figure className="mx-auto max-w-4xl border-t border-gray-700">
+                    <img
+                      src="/hardware-kit/EV-powertrain-prototype.png"
+                      alt="EV Powertrain Prototype"
+                    />
+                    <figcaption className="text-center text-gray-500 italic">
+                      EV Powertrain Prototype
+                    </figcaption>
+                  </figure>
                 </div>
               </div>
             </div>
