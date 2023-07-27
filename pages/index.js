@@ -516,7 +516,7 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-primary-400">
-                              Aug 16, 2023
+                              Aug 17, 2023
                             </p>
                             <p className="col-span-5 text-gray-200">
                               - Announcement of selected students.
@@ -532,7 +532,7 @@ export default function Home() {
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
                             <p className="col-span-2 text-primary-400">
-                              Oct 27, 2023
+                              Oct 31, 2023
                             </p>
                             <p className="col-span-5 text-gray-200">
                               - Course conclusion.
@@ -926,7 +926,7 @@ export default function Home() {
                   </div>
                   <div className="relative hidden md:flex w-24 flex-col items-center justify-between">
                     <p className="flex text-xs text-gray-200 pt-2 items-center justify-center">
-                      The competency based curriculum enables learners to pick
+                      The competency-based curriculum enables learners to pick
                       up competencies for industry skills
                     </p>
                     <svg
@@ -1040,7 +1040,7 @@ export default function Home() {
                       mathematical simulations as part of the course.
                     </li>
                     <li>
-                      EV 201 course requires a custom designed Do-it-yourself
+                      EV 201 course requires a custom-designed Do-it-yourself
                       (DIY) KIT to complete the course.{" "}
                     </li>
                     <li>
@@ -1398,7 +1398,7 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-basetext-sm lg:text-base text-primary-400 lg:text-right">
-                      August 16, 2023
+                      August 17, 2023
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">
                       - Announcement of selected students.
@@ -1414,7 +1414,7 @@ export default function Home() {
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
                     <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">
-                      October 27, 2023
+                      October 31, 2023
                     </p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">
                       - Course conclusion.
