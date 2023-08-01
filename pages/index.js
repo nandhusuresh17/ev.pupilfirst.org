@@ -387,7 +387,7 @@ export default function Home() {
                       </h3>
                       <p className="pt-1 text-sm lg:text-lg text-white">
                         You'll be working hands-on with our exclusive
-                        do-it-yourself (DIY) hardware kit, which includes all
+                        do-it-yourself (DIY) hardware kit as part of the intermediate-level EV201 course, which includes all
                         the necessary components to build and experiment with
                         your own EV Powertrain prototype. Get ready to see your
                         designs come to life!
@@ -703,7 +703,7 @@ export default function Home() {
                 <div className="pt-4 text-2xl lg:text-6xl leading-tight text-white">
                   <p className="text-white text-base lg:text-lg">
                     This course is designed as a course for beginners. It'll be
-                    followed up with an intermediate course and advanced course
+                    followed up with an intermediate course and an advanced course
                     that will pave the pathway a student can take to become a
                     part of the Electric vehicle industry.
                   </p>
@@ -747,7 +747,7 @@ export default function Home() {
               <div className="max-w-6xl 2xl:max-w-7xl mx-auto ml-4 lg:ml-12 xl:ml-16 2xl:ml-36">
                 <div className="max-w-4xl mt-4">
                   <p className="text-white lg:text-lg">
-                    While the EV 101, the introductory course will serve as the
+                    While EV 101, the introductory course will serve as the
                     foundation, check the infographic below to understand what
                     skills will be gained in the Intermediate course “Design and
                     Build your own EV Powertrain (EV 201)
